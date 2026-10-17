@@ -1,0 +1,22 @@
+EPUB import dependencies (installed versions, lockfile pinned)
+
+EPUB.js 0.3.93 — BSD-2-Clause
+https://github.com/futurepress/epub.js
+Full license: EPUBJS-BSD-2-Clause.txt
+Only package/navigation parsing modules are used; EPUB.js renderer is not used.
+
+@zip.js/zip.js 2.23.0 — BSD-3-Clause
+https://github.com/gildas-lormeau/zip.js
+Full license: ZIPJS-BSD-3-Clause.txt
+
+entities 8.1.0 — BSD-2-Clause
+https://github.com/fb55/entities
+Full license: ENTITIES-BSD-2-Clause.txt
+
+@xmldom/xmldom 0.9.12 — MIT
+https://github.com/xmldom/xmldom
+Full license: XMLDOM-MIT.txt
+Transitive dependency of EPUB.js; overridden to 0.9.12 in pnpm-workspace.yaml.
+
+Test EPUB books and their simple images are original project test fixtures,
+reproducible with scripts/build_epub_fixtures.py. No commercial book is bundled.

@@ -1,0 +1,35 @@
+# CC-CEDICT
+# Community maintained free Chinese-English dictionary.
+#
+# Published by MDBG
+#
+# License:
+# Creative Commons Attribution-ShareAlike 4.0 International License
+# https://creativecommons.org/licenses/by-sa/4.0/
+#
+# Referenced works:
+# CEDICT - Copyright (C) 1997, 1998 Paul Andrew Denisowski
+#
+# CC-CEDICT can be downloaded from:
+# https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+#
+# Additions and corrections can be sent through:
+# https://cc-cedict.org/editor/editor.php
+#
+# For more information about CC-CEDICT see:
+# https://cc-cedict.org/wiki/
+#
+#! version=1
+#! subversion=0
+#! format=ts
+#! charset=UTF-8
+#! entries=125275
+#! publisher=MDBG
+#! license=https://creativecommons.org/licenses/by-sa/4.0/
+#! date=2026-10-14T21:50:50Z
+#! time=1792014650
+想到 想到 [xiang3 dao4] /to think of/to call to mind/to anticipate/
+想起 想起 [xiang3 qi3] /to recall/to think of/to call to mind/
+毅然 毅然 [yi4 ran2] /firmly/resolutely/without hesitation/
+毅然決然 毅然决然 [yi4 ran2 jue2 ran2] /without hesitation/resolutely/firmly/
+毫不猶豫 毫不犹豫 [hao2 bu4 you2 yu4] /without the slightest hesitation/

@@ -1,0 +1,85 @@
+{
+  "format": "cijing-translations",
+  "schemaVersion": 1,
+  "book": {
+    "sourceHash": "sha256:1235a2109d0e96cd17c0aa5193f6b04945d5a577601186466f59d34fcff523ba",
+    "title": "导入验证小说",
+    "chapterCount": 1
+  },
+  "chapters": [
+    {
+      "schemaVersion": 1,
+      "chapterId": "part-1",
+      "chapterIndex": 0,
+      "chapterTitle": "正文",
+      "identity": {
+        "sourceHash": "sha256:5c883afd1c01e9045f33afa053fb22d6765a83a4a89a2488a36fc518c1be9380",
+        "sourceLanguage": "zh",
+        "targetLanguage": "en",
+        "provider": "original-story-test-fixture",
+        "modelVersion": "no-ai-model",
+        "configurationHash": "",
+        "contextHash": ""
+      },
+      "status": "complete",
+      "segments": [
+        {
+          "id": "p0-0-9",
+          "chapterId": "part-1",
+          "source": {
+            "paragraph": 0,
+            "start": 0,
+            "end": 9
+          },
+          "sourceText": "《导入验证小说》\n",
+          "targetText": "The Import Test Novel"
+        },
+        {
+          "id": "p0-9-16",
+          "chapterId": "part-1",
+          "source": {
+            "paragraph": 0,
+            "start": 9,
+            "end": 16
+          },
+          "sourceText": "第一章 清晨\n",
+          "targetText": "Chapter One: Morning"
+        },
+        {
+          "id": "p0-16-27",
+          "chapterId": "part-1",
+          "source": {
+            "paragraph": 0,
+            "start": 16,
+            "end": 27
+          },
+          "sourceText": "这是一段原创测试文字。",
+          "targetText": "This is an original passage written for testing."
+        },
+        {
+          "id": "p0-28-35",
+          "chapterId": "part-1",
+          "source": {
+            "paragraph": 0,
+            "start": 28,
+            "end": 35
+          },
+          "sourceText": "第二章 夜晚\n",
+          "targetText": "Chapter Two: Night"
+        },
+        {
+          "id": "p0-35-50",
+          "chapterId": "part-1",
+          "source": {
+            "paragraph": 0,
+            "start": 35,
+            "end": 50
+          },
+          "sourceText": "全书最后一句：星光照亮了归途。",
+          "targetText": "The final sentence of the book: Starlight lit the way home."
+        }
+      ],
+      "updatedAt": "2026-10-16T14:57:40.764Z"
+    }
+  ]
+}

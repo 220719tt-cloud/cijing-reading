@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "version": "ecdict-phrases-1300-v2",
+  "source": {
+    "name": "ECDICT",
+    "url": "https://github.com/skywind3000/ECDICT",
+    "commit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+    "file": "ecdict.csv",
+    "sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "license": "MIT",
+    "licenseFile": "licenses/ECDICT-MIT.txt"
+  },
+  "count": 8223,
+  "words": 6923,
+  "phrases": 1300,
+  "advancedOnlyLowFrequency": 0,
+  "tags": {
+    "zk": 1501,
+    "gk": 3256,
+    "cet4": 3812,
+    "cet6": 5130,
+    "ky": 4432
+  },
+  "bytes": 1139950,
+  "gzipBytes": 283338,
+  "sha256": "6b41e340c16b008e7d68a9e3ff7ed00445788a5f288187cb577be2faadce155f",
+  "missingPhraseCandidates": [
+    "at the door",
+    "to my surprise",
+    "without a word"
+  ],
+  "replacementCandidates": 30,
+  "replacementBytes": 7874,
+  "replacementGzipBytes": 2306,
+  "replacementSha256": "5fe805cb17abb30e948dfa32e155cd34943f36365545976256d8c8ff59a2a944",
+  "sourceTagNote": "Exam tags overlap and are inherited from ECDICT, not an official complete syllabus.",
+  "baseCount": 7000,
+  "phraseBytes": 558129,
+  "phraseGzipBytes": 65568,
+  "phraseSha256": "7693f4abf7b3f0004ff180659fc757a2925475731faad7434caf4e012ce91287",
+  "phraseCategories": {
+    "daily-reading": 200,
+    "common-verb": 400,
+    "cet6": 350,
+    "postgraduate": 350
+  },
+  "phraseTags": {
+    "cet4": 893,
+    "cet6": 853,
+    "ky": 908
+  },
+  "phraseSourceMembership": {
+    "cet6": 853,
+    "npee": 908,
+    "cet4": 893,
+    "senior": 1056,
+    "junior": 809
+  },
+  "phraseSources": {
+    "englishPhrases": {
+      "url": "https://github.com/2ndLA/english-phrases",
+      "commit": "a03f97177ec0db8986085fb3edc1e64a4660e46c",
+      "license": "CC-BY-SA-4.0",
+      "author": "2ndLA and contributors",
+      "files": {
+        "cet6.txt": "44cd8687d3beb18cee260677c849448007d7e46554a63694983e0b2e33eda7d1",
+        "npee.txt": "2040492977ea904fca00a5460a52bc4722d281f5d5eb40f09f8665bdc9dae9d3",
+        "cet4.txt": "ab0a3810757d7397b7302dca0852102f6afe82087b835938a6c8afc05381f935",
+        "senior.txt": "34a82c3558e22901094dc006be30b0b09fbd19b61d3e344f9adf2de28a9c1603",
+        "junior.txt": "71932b1ce599d256a31e11ffbb337f2ee422aaf3ba1ab65a2dccabd7c4c4502c"
+      }
+    },
+    "cedict": {
+      "url": "https://www.mdbg.net/chinese/dictionary?page=cedict",
+      "download": "https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz",
+      "date": "2026-10-14T21:50:50Z",
+      "license": "CC-BY-SA-4.0",
+      "author": "CC-CEDICT contributors; published by MDBG",
+      "downloadSha256": "7870df51f14efee6c180bd69e97c672ab83eacf2eea330f5e9696c1426fb05aa",
+      "evidenceSha256": "f80ce21c1b07e302f816c3ec89fc91fb2163f9c97cae976cb36dab1586590f5c"
+    }
+  },
+  "phraseLicense": "CC-BY-SA-4.0",
+  "phraseExcludedCount": 2764,
+  "legacyPhrasesPreserved": 77
+}

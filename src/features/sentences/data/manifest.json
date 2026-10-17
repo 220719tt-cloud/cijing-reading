@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source": "cijing-original-2026-10-17",
+  "description": "本项目原创编辑双语例句；非外部词典摘录；未声称语料频次或母语审校。",
+  "license": "CC0-1.0",
+  "count": 200,
+  "categories": {
+    "conversation": 40,
+    "thought": 40,
+    "action": 40,
+    "emotion": 40,
+    "setting": 40
+  },
+  "bytes": 30981,
+  "gzipBytes": 6066,
+  "sha256": "44e8d6454c76658049ce78606f8abf26bcfd5e0240797c883203c3c6ee418dc2",
+  "sourceSha256": "d4670fb3258114dd65ac8c2ef52407186c489a724840f13778f588a841a03f2f"
+}

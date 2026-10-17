@@ -1,0 +1,129 @@
+{
+  "format": "cijing-translations",
+  "schemaVersion": 1,
+  "book": {
+    "sourceHash": "sha256:4c1b74af4e23faeabe9bce1d9037bcb7cd981052305c50032be8b84fd754dfa6",
+    "title": "月亮邮局",
+    "chapterCount": 1
+  },
+  "chapters": [
+    {
+      "schemaVersion": 1,
+      "chapterId": "chapter-1",
+      "chapterIndex": 0,
+      "chapterTitle": "第一章 · 午夜的营业时间",
+      "identity": {
+        "sourceHash": "sha256:943cca4cc7d46277585d6fbf2df76c1b56a88e2fd9ff66c00e96f48cbb3ceaf9",
+        "sourceLanguage": "zh",
+        "targetLanguage": "en",
+        "provider": "original-story-test-fixture",
+        "modelVersion": "no-ai-model",
+        "configurationHash": "",
+        "contextHash": ""
+      },
+      "status": "complete",
+      "segments": [
+        {
+          "id": "paragraph-0",
+          "chapterId": "chapter-1",
+          "source": {
+            "paragraph": 0,
+            "start": 0,
+            "end": 51
+          },
+          "sourceText": "巷子尽头的邮局只在月亮升起后营业。白天，那是一间门窗紧闭的旧屋，门口的花盆里种着一棵始终不开花的栀子。",
+          "targetText": "The post office at the end of the alley opened only after the moon had risen. By day, it was an old house with its doors and windows shut. In a flowerpot by the entrance grew a gardenia that never bloomed."
+        },
+        {
+          "id": "paragraph-1",
+          "chapterId": "chapter-1",
+          "source": {
+            "paragraph": 1,
+            "start": 0,
+            "end": 35
+          },
+          "sourceText": "周宁搬来第三天，才发现门上的营业时间没有写数字，而是一小片银色的月牙。",
+          "targetText": "It was not until her third day in the neighborhood that Zhou Ning noticed the opening hours on the door. Instead of numbers, there was a small silver crescent moon."
+        },
+        {
+          "id": "paragraph-2",
+          "chapterId": "chapter-1",
+          "source": {
+            "paragraph": 2,
+            "start": 0,
+            "end": 72
+          },
+          "sourceText": "那晚她加班回来，看见屋里透出暖黄的光。一个戴圆框眼镜的老人坐在柜台后面，正在给一叠信封盖章。每盖一下，屋顶就落下一声很轻的响，像有人拨动了风铃。",
+          "targetText": "That night, she came home late from work and saw warm yellow light spilling out of the house. An elderly man with round glasses sat behind the counter, stamping a stack of envelopes. With each stamp, a faint sound drifted down from the roof, as though someone had touched a wind chime."
+        },
+        {
+          "id": "paragraph-3",
+          "chapterId": "chapter-1",
+          "source": {
+            "paragraph": 3,
+            "start": 0,
+            "end": 16
+          },
+          "sourceText": "“这里能寄信吗？”她站在门口问。",
+          "targetText": "\"Can I send a letter here?\" she asked from the doorway."
+        },
+        {
+          "id": "paragraph-4",
+          "chapterId": "chapter-1",
+          "source": {
+            "paragraph": 4,
+            "start": 0,
+            "end": 21
+          },
+          "sourceText": "老人抬起头：“当然。只要你知道想寄给谁。”",
+          "targetText": "The old man looked up. \"Of course. As long as you know whom you want to send it to.\""
+        },
+        {
+          "id": "paragraph-5",
+          "chapterId": "chapter-1",
+          "source": {
+            "paragraph": 5,
+            "start": 0,
+            "end": 11
+          },
+          "sourceText": "“不知道地址也可以？”",
+          "targetText": "\"Even if I do not know the address?\""
+        },
+        {
+          "id": "paragraph-6",
+          "chapterId": "chapter-1",
+          "source": {
+            "paragraph": 6,
+            "start": 0,
+            "end": 43
+          },
+          "sourceText": "“有些人的地址，不在地图上。”他从抽屉里取出一张信纸，推到柜台边缘，“坐下来慢慢写。”",
+          "targetText": "\"Some people have addresses you will not find on a map.\" He took a sheet of writing paper from a drawer and slid it to the edge of the counter. \"Sit down. Take your time.\""
+        },
+        {
+          "id": "paragraph-7",
+          "chapterId": "chapter-1",
+          "source": {
+            "paragraph": 7,
+            "start": 0,
+            "end": 55
+          },
+          "sourceText": "周宁在窗边坐下。她原本没有要写信的打算，可笔尖碰到纸面的瞬间，一个许久没喊出口的称呼，忽然清清楚楚地浮了上来。",
+          "targetText": "Zhou Ning sat by the window. She had not meant to write a letter, but the instant her pen touched the paper, a name she had not spoken aloud for a long time came clearly to mind."
+        },
+        {
+          "id": "paragraph-8",
+          "chapterId": "chapter-1",
+          "source": {
+            "paragraph": 8,
+            "start": 0,
+            "end": 12
+          },
+          "sourceText": "窗外，栀子花开了第一朵。",
+          "targetText": "Outside the window, the gardenia opened its first flower."
+        }
+      ],
+      "updatedAt": "2026-10-16T14:57:40.760Z"
+    }
+  ]
+}

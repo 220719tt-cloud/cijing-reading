@@ -1,0 +1,5641 @@
+[
+  {
+    "id": "curated-邮局",
+    "chinese": "邮局",
+    "english": "post office",
+    "entryId": "post office",
+    "policy": "count",
+    "evidence": "邮局",
+    "sources": [
+      {
+        "word": "post office",
+        "meaning": "邮局\n[法] 邮局",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-花盆",
+    "chinese": "花盆",
+    "english": "flowerpot",
+    "entryId": "flowerpot",
+    "policy": "count",
+    "plural": "flowerpots",
+    "evidence": "花盆",
+    "sources": [
+      {
+        "word": "flowerpot",
+        "meaning": "n. 花盆, 花钵",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-旧屋",
+    "chinese": "旧屋",
+    "english": "old house",
+    "entryId": "old house",
+    "policy": "count",
+    "evidence": "旧;房",
+    "sources": [
+      {
+        "word": "old",
+        "meaning": "n. 以前, 往昔\na. 老的, 旧的, 古老的, 年长的, 老练的",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "house",
+        "meaning": "n. 房子, 住宅, 机构, 议院, 家族, 家庭\nvt. 给...房子住, 收藏\nvi. 住, 躲藏",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-月亮",
+    "chinese": "月亮",
+    "english": "moon",
+    "entryId": "moon",
+    "policy": "noun",
+    "evidence": "月亮",
+    "sources": [
+      {
+        "word": "moon",
+        "meaning": "n. 月亮, 月球, 月光\nvi. 闲荡\nvt. 虚度",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-神秘的",
+    "chinese": "神秘的",
+    "english": "mysterious",
+    "entryId": "mysterious",
+    "policy": "adjective",
+    "evidence": "神秘的",
+    "sources": [
+      {
+        "word": "mysterious",
+        "meaning": "a. 神秘的, 难解的, 不可思议的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-毫不犹豫",
+    "chinese": "毫不犹豫",
+    "english": "without hesitation",
+    "entryId": "without hesitation",
+    "policy": "adverb",
+    "evidence": "毫不犹豫",
+    "sources": [
+      {
+        "word": "without hesitation",
+        "meaning": "毫不犹豫；毅然；毅然决然",
+        "source": "cc-cedict"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-突然之间",
+    "chinese": "突然之间",
+    "english": "all of a sudden",
+    "entryId": "all of a sudden",
+    "policy": "adverb",
+    "evidence": "突然",
+    "sources": [
+      {
+        "word": "all of a sudden",
+        "meaning": "突然",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-突然",
+    "chinese": "突然",
+    "english": "suddenly",
+    "entryId": "suddenly",
+    "policy": "adverb",
+    "evidence": "突然",
+    "sources": [
+      {
+        "word": "suddenly",
+        "meaning": "adv. 突然, 意外, 忽然, 迅速, 即席作成, 即刻, 急速",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-忽然",
+    "chinese": "忽然",
+    "english": "suddenly",
+    "entryId": "suddenly",
+    "policy": "adverb",
+    "evidence": "忽然",
+    "sources": [
+      {
+        "word": "suddenly",
+        "meaning": "adv. 突然, 意外, 忽然, 迅速, 即席作成, 即刻, 急速",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-清清楚楚地",
+    "chinese": "清清楚楚地",
+    "english": "clearly",
+    "entryId": "clearly",
+    "policy": "adverb",
+    "evidence": "清楚地",
+    "sources": [
+      {
+        "word": "clearly",
+        "meaning": "adv. 清楚地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-清楚地",
+    "chinese": "清楚地",
+    "english": "clearly",
+    "entryId": "clearly",
+    "policy": "adverb",
+    "evidence": "清楚地",
+    "sources": [
+      {
+        "word": "clearly",
+        "meaning": "adv. 清楚地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-慢慢",
+    "chinese": "慢慢",
+    "english": "slowly",
+    "entryId": "slowly",
+    "policy": "adverb",
+    "evidence": "慢",
+    "sources": [
+      {
+        "word": "slowly",
+        "meaning": "adv. 慢慢地, 迟缓地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-缓缓",
+    "chinese": "缓缓",
+    "english": "slowly",
+    "entryId": "slowly",
+    "policy": "adverb",
+    "evidence": "慢",
+    "sources": [
+      {
+        "word": "slowly",
+        "meaning": "adv. 慢慢地, 迟缓地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-轻轻",
+    "chinese": "轻轻",
+    "english": "gently",
+    "entryId": "gently",
+    "policy": "adverb",
+    "evidence": "轻",
+    "sources": [
+      {
+        "word": "gently",
+        "meaning": "adv. 温和地, 温柔地, 轻轻地, 逐渐地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-悄悄",
+    "chinese": "悄悄",
+    "english": "quietly",
+    "entryId": "quietly",
+    "policy": "adverb",
+    "evidence": "安静地",
+    "sources": [
+      {
+        "word": "quietly",
+        "meaning": "adv. 安静地, 沉着地, 秘密地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-静静地",
+    "chinese": "静静地",
+    "english": "quietly",
+    "entryId": "quietly",
+    "policy": "adverb",
+    "evidence": "静",
+    "sources": [
+      {
+        "word": "quietly",
+        "meaning": "adv. 安静地, 沉着地, 秘密地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-小心地",
+    "chinese": "小心地",
+    "english": "carefully",
+    "entryId": "carefully",
+    "policy": "adverb",
+    "evidence": "小心",
+    "sources": [
+      {
+        "word": "carefully",
+        "meaning": "adv. 小心地, 谨慎地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-认真地",
+    "chinese": "认真地",
+    "english": "carefully",
+    "entryId": "carefully",
+    "policy": "adverb",
+    "evidence": "小心地",
+    "sources": [
+      {
+        "word": "carefully",
+        "meaning": "adv. 小心地, 谨慎地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-仔细地",
+    "chinese": "仔细地",
+    "english": "carefully",
+    "entryId": "carefully",
+    "policy": "adverb",
+    "evidence": "小心地",
+    "sources": [
+      {
+        "word": "carefully",
+        "meaning": "adv. 小心地, 谨慎地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-终于",
+    "chinese": "终于",
+    "english": "finally",
+    "entryId": "finally",
+    "policy": "adverb",
+    "evidence": "终于",
+    "sources": [
+      {
+        "word": "finally",
+        "meaning": "adv. 最后, 终于",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-也许",
+    "chinese": "也许",
+    "english": "perhaps",
+    "entryId": "perhaps",
+    "policy": "adverb",
+    "evidence": "也许",
+    "sources": [
+      {
+        "word": "perhaps",
+        "meaning": "adv. 也许, 大概",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-仍然",
+    "chinese": "仍然",
+    "english": "still",
+    "entryId": "still",
+    "policy": "adverb",
+    "evidence": "仍然",
+    "sources": [
+      {
+        "word": "still",
+        "meaning": "n. 蒸馏室, 寂静, 剧照\nv. 蒸馏, (使)平静, (使)静止\na. 静止的, 不动的, 静寂的, 不起泡的, 静物摄影的\nadv. 仍然, 更, 静止地\nconj. 然而, 但是",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-立刻",
+    "chinese": "立刻",
+    "english": "immediately",
+    "entryId": "immediately",
+    "policy": "adverb",
+    "evidence": "立刻",
+    "sources": [
+      {
+        "word": "immediately",
+        "meaning": "adv. 直接地, 立刻, 立即",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-马上",
+    "chinese": "马上",
+    "english": "immediately",
+    "entryId": "immediately",
+    "policy": "adverb",
+    "evidence": "立即",
+    "sources": [
+      {
+        "word": "immediately",
+        "meaning": "adv. 直接地, 立刻, 立即",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-永远",
+    "chinese": "永远",
+    "english": "forever",
+    "entryId": "forever",
+    "policy": "adverb",
+    "evidence": "永远",
+    "sources": [
+      {
+        "word": "forever",
+        "meaning": "adv. 永远",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-偶尔",
+    "chinese": "偶尔",
+    "english": "occasionally",
+    "entryId": "occasionally",
+    "policy": "adverb",
+    "evidence": "偶而",
+    "sources": [
+      {
+        "word": "occasionally",
+        "meaning": "adv. 有时候, 偶而",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-几乎",
+    "chinese": "几乎",
+    "english": "almost",
+    "entryId": "almost",
+    "policy": "adverb",
+    "evidence": "几乎",
+    "sources": [
+      {
+        "word": "almost",
+        "meaning": "adv. 几乎, 差不多",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-差点",
+    "chinese": "差点",
+    "english": "almost",
+    "entryId": "almost",
+    "policy": "adverb",
+    "evidence": "几乎",
+    "sources": [
+      {
+        "word": "almost",
+        "meaning": "adv. 几乎, 差不多",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-始终",
+    "chinese": "始终",
+    "english": "always",
+    "entryId": "always",
+    "policy": "adverb",
+    "evidence": "始终",
+    "sources": [
+      {
+        "word": "always",
+        "meaning": "adv. 总是, 始终",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-总是",
+    "chinese": "总是",
+    "english": "always",
+    "entryId": "always",
+    "policy": "adverb",
+    "evidence": "总是",
+    "sources": [
+      {
+        "word": "always",
+        "meaning": "adv. 总是, 始终",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-当然",
+    "chinese": "当然",
+    "english": "of course",
+    "entryId": "of course",
+    "policy": "adverb",
+    "evidence": "当然",
+    "sources": [
+      {
+        "word": "of course",
+        "meaning": "当然",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-很久以前",
+    "chinese": "很久以前",
+    "english": "a long time ago",
+    "entryId": "a long time ago",
+    "policy": "adverb",
+    "evidence": "很久以前",
+    "sources": [
+      {
+        "word": "a long time ago",
+        "meaning": "很久以前",
+        "source": "ecdict"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-从前",
+    "chinese": "从前",
+    "english": "once upon a time",
+    "entryId": "once upon a time",
+    "policy": "adverb",
+    "evidence": "从前",
+    "sources": [
+      {
+        "word": "once upon a time",
+        "meaning": "从前",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-时不时",
+    "chinese": "时不时",
+    "english": "now and then",
+    "entryId": "now and then",
+    "policy": "adverb",
+    "evidence": "偶尔",
+    "sources": [
+      {
+        "word": "now and then",
+        "meaning": "偶尔",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-时不时地",
+    "chinese": "时不时地",
+    "english": "now and then",
+    "entryId": "now and then",
+    "policy": "adverb",
+    "evidence": "偶尔",
+    "sources": [
+      {
+        "word": "now and then",
+        "meaning": "偶尔",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-迟早",
+    "chinese": "迟早",
+    "english": "sooner or later",
+    "entryId": "sooner or later",
+    "policy": "later",
+    "evidence": "迟早",
+    "sources": [
+      {
+        "word": "sooner or later",
+        "meaning": "迟早",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-沉默着",
+    "chinese": "沉默着",
+    "english": "in silence",
+    "entryId": "in silence",
+    "policy": "silence",
+    "evidence": "沉默着",
+    "sources": [
+      {
+        "word": "in silence",
+        "meaning": "沉默着",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-并肩",
+    "chinese": "并肩",
+    "english": "side by side",
+    "entryId": "side by side",
+    "policy": "beside",
+    "evidence": "并肩",
+    "sources": [
+      {
+        "word": "side by side",
+        "meaning": "并排, 并肩",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-面对面",
+    "chinese": "面对面",
+    "english": "face to face",
+    "entryId": "face to face",
+    "policy": "beside",
+    "evidence": "面对面",
+    "sources": [
+      {
+        "word": "face to face",
+        "meaning": "面对面",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-在远处",
+    "chinese": "在远处",
+    "english": "in the distance",
+    "entryId": "in the distance",
+    "policy": "distance",
+    "evidence": "在远处",
+    "sources": [
+      {
+        "word": "in the distance",
+        "meaning": "在远处",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-片刻",
+    "chinese": "片刻",
+    "english": "for a moment",
+    "entryId": "for a moment",
+    "policy": "moment",
+    "evidence": "片刻",
+    "sources": [
+      {
+        "word": "for a moment",
+        "meaning": "一会儿,片刻",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-不久",
+    "chinese": "不久",
+    "english": "soon",
+    "entryId": "soon",
+    "policy": "adverb",
+    "evidence": "不久",
+    "sources": [
+      {
+        "word": "soon",
+        "meaning": "adv. 不久, 早, 快, 宁可",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-提前",
+    "chinese": "提前",
+    "english": "in advance",
+    "entryId": "in advance",
+    "policy": "adverb",
+    "evidence": "预先",
+    "sources": [
+      {
+        "word": "in advance",
+        "meaning": "预先\n[经] 预先",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-事实上",
+    "chinese": "事实上",
+    "english": "in fact",
+    "entryId": "in fact",
+    "policy": "adverb",
+    "evidence": "事实上",
+    "sources": [
+      {
+        "word": "in fact",
+        "meaning": "事实上",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-至少",
+    "chinese": "至少",
+    "english": "at least",
+    "entryId": "at least",
+    "policy": "adverb",
+    "evidence": "至少",
+    "sources": [
+      {
+        "word": "at least",
+        "meaning": "至少",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-起初",
+    "chinese": "起初",
+    "english": "at first",
+    "entryId": "at first",
+    "policy": "adverb",
+    "evidence": "起先",
+    "sources": [
+      {
+        "word": "at first",
+        "meaning": "起先",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-最后",
+    "chinese": "最后",
+    "english": "finally",
+    "entryId": "finally",
+    "policy": "finally",
+    "evidence": "最后",
+    "sources": [
+      {
+        "word": "finally",
+        "meaning": "adv. 最后, 终于",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-巷子",
+    "chinese": "巷子",
+    "english": "alley",
+    "entryId": "alley",
+    "policy": "count",
+    "plural": "alleys",
+    "evidence": "巷",
+    "sources": [
+      {
+        "word": "alley",
+        "meaning": "n. 小路, 巷",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-白天",
+    "chinese": "白天",
+    "english": "daytime",
+    "entryId": "daytime",
+    "policy": "noun",
+    "evidence": "白天",
+    "sources": [
+      {
+        "word": "daytime",
+        "meaning": "n. 白天, 日间",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-门口",
+    "chinese": "门口",
+    "english": "doorway",
+    "entryId": "doorway",
+    "policy": "noun",
+    "evidence": "门口",
+    "sources": [
+      {
+        "word": "doorway",
+        "meaning": "n. 门口, 途径",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-眼镜",
+    "chinese": "眼镜",
+    "english": "glasses",
+    "entryId": "glasses",
+    "policy": "noun",
+    "evidence": "眼镜",
+    "sources": [
+      {
+        "word": "glasses",
+        "meaning": "n. 眼镜；双筒望远镜；玻璃（glass的复数形式）",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-老人",
+    "chinese": "老人",
+    "english": "elderly person",
+    "entryId": "elderly person",
+    "policy": "count",
+    "evidence": "稍老;人",
+    "sources": [
+      {
+        "word": "elderly",
+        "meaning": "a. 过了中年的, 稍老的",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "person",
+        "meaning": "n. 人, 人身, 人称",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-柜台",
+    "chinese": "柜台",
+    "english": "counter",
+    "entryId": "counter",
+    "policy": "count",
+    "plural": "counters",
+    "evidence": "柜台",
+    "sources": [
+      {
+        "word": "counter",
+        "meaning": "n. 计算器, 计算者, 柜台, 筹码\na. 反方向的, 相反的\nadv. 反方向地, 相反地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-信封",
+    "chinese": "信封",
+    "english": "envelope",
+    "entryId": "envelope",
+    "policy": "count",
+    "plural": "envelopes",
+    "evidence": "信封",
+    "sources": [
+      {
+        "word": "envelope",
+        "meaning": "n. 信封, 封套, 封袋",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-屋顶",
+    "chinese": "屋顶",
+    "english": "roof",
+    "entryId": "roof",
+    "policy": "count",
+    "plural": "roofs",
+    "evidence": "屋顶",
+    "sources": [
+      {
+        "word": "roof",
+        "meaning": "n. 屋顶, 室顶\nvt. 给...盖屋顶, 遮蔽",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-风铃",
+    "chinese": "风铃",
+    "english": "wind chime",
+    "entryId": "wind chime",
+    "policy": "count",
+    "evidence": "风铃",
+    "sources": [
+      {
+        "word": "wind chime",
+        "meaning": "n. 风铃",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-栀子花",
+    "chinese": "栀子花",
+    "english": "gardenia",
+    "entryId": "gardenia",
+    "policy": "count",
+    "plural": "gardenias",
+    "evidence": "栀子",
+    "sources": [
+      {
+        "word": "gardenia",
+        "meaning": "n. 栀子",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-栀子",
+    "chinese": "栀子",
+    "english": "gardenia",
+    "entryId": "gardenia",
+    "policy": "count",
+    "plural": "gardenias",
+    "evidence": "栀子",
+    "sources": [
+      {
+        "word": "gardenia",
+        "meaning": "n. 栀子",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-抽屉",
+    "chinese": "抽屉",
+    "english": "drawer",
+    "entryId": "drawer",
+    "policy": "count",
+    "plural": "drawers",
+    "evidence": "抽屉",
+    "sources": [
+      {
+        "word": "drawer",
+        "meaning": "n. 抽屉, 开票人",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-信纸",
+    "chinese": "信纸",
+    "english": "writing paper",
+    "entryId": "writing paper",
+    "policy": "noun",
+    "evidence": "信纸",
+    "sources": [
+      {
+        "word": "writing paper",
+        "meaning": "书写纸, 信纸\n[化] 书写纸",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-地图",
+    "chinese": "地图",
+    "english": "map",
+    "entryId": "map",
+    "policy": "count",
+    "plural": "maps",
+    "evidence": "地图",
+    "sources": [
+      {
+        "word": "map",
+        "meaning": "n. 地图, 天体图, 映像\nvt. 映射, 绘制...地图, 计划",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-地址",
+    "chinese": "地址",
+    "english": "address",
+    "entryId": "address",
+    "policy": "count",
+    "plural": "addresses",
+    "evidence": "地址",
+    "sources": [
+      {
+        "word": "address",
+        "meaning": "n. 住址, 演说, 举止, 灵巧, 求爱\nvt. 发表(演说或讲话), 对付, 写地址",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-数字",
+    "chinese": "数字",
+    "english": "number",
+    "entryId": "number",
+    "policy": "count",
+    "plural": "numbers",
+    "evidence": "数字",
+    "sources": [
+      {
+        "word": "number",
+        "meaning": "n. 数, 数字, 数目, 号码\nvt. 数, 计算, 共计\nvi. 计算, 报数",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-笔尖",
+    "chinese": "笔尖",
+    "english": "pen point",
+    "entryId": "pen point",
+    "policy": "count",
+    "evidence": "笔尖",
+    "sources": [
+      {
+        "word": "pen point",
+        "meaning": " 笔尖; 笔头",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-窗外",
+    "chinese": "窗外",
+    "english": "outside the window",
+    "entryId": "outside the window",
+    "policy": "noun",
+    "evidence": "外;窗",
+    "sources": [
+      {
+        "word": "outside",
+        "meaning": "n. 外面, 外表, 外界\na. 外面的, 外表的, 外界的\nadv. 外面, 外表, 外界",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "window",
+        "meaning": "n. 窗户, 窗子, 窗口\nvt. 给...开窗",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-银色的",
+    "chinese": "银色的",
+    "english": "silvery",
+    "entryId": "silvery",
+    "policy": "adjective",
+    "evidence": "银色",
+    "sources": [
+      {
+        "word": "silvery",
+        "meaning": "a. 像银的, 银色的, 银铃一般的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-紧闭的",
+    "chinese": "紧闭的",
+    "english": "closed",
+    "entryId": "closed",
+    "policy": "adjective",
+    "evidence": "关闭",
+    "sources": [
+      {
+        "word": "closed",
+        "meaning": "a. 关闭的, 限于少数人的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-暖和的",
+    "chinese": "暖和的",
+    "english": "warm",
+    "entryId": "warm",
+    "policy": "adjective",
+    "evidence": "暖",
+    "sources": [
+      {
+        "word": "warm",
+        "meaning": "a. 暖和的, 暖的, 温暖的, 热烈的, 兴奋的, 激烈的, 多情的, 色情的\nvt. 使温暖, 弄热, 使兴奋, 使充满仇恨\nvi. 变暖和, 变温暖, 取暖, 激动, 同情, 爱好\nn. 暖, 保暖物",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-温暖的",
+    "chinese": "温暖的",
+    "english": "warm",
+    "entryId": "warm",
+    "policy": "adjective",
+    "evidence": "温暖",
+    "sources": [
+      {
+        "word": "warm",
+        "meaning": "a. 暖和的, 暖的, 温暖的, 热烈的, 兴奋的, 激烈的, 多情的, 色情的\nvt. 使温暖, 弄热, 使兴奋, 使充满仇恨\nvi. 变暖和, 变温暖, 取暖, 激动, 同情, 爱好\nn. 暖, 保暖物",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-安静的",
+    "chinese": "安静的",
+    "english": "quiet",
+    "entryId": "quiet",
+    "policy": "adjective",
+    "evidence": "安静",
+    "sources": [
+      {
+        "word": "quiet",
+        "meaning": "n. 安静, 闲适, 平静\na. 安静的, 静止的, 寂静的, 朴素的, 从容的, 暗中的\nvi. 平静下来\nvt. 使平静, 使平息, 使安心, 安慰",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-宁静的",
+    "chinese": "宁静的",
+    "english": "peaceful",
+    "entryId": "peaceful",
+    "policy": "adjective",
+    "evidence": "平静",
+    "sources": [
+      {
+        "word": "peaceful",
+        "meaning": "a. 平静的, 和平的, 和平时期的, 爱好和平的, 喜爱安静的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-熟悉的",
+    "chinese": "熟悉的",
+    "english": "familiar",
+    "entryId": "familiar",
+    "policy": "adjective",
+    "evidence": "熟悉",
+    "sources": [
+      {
+        "word": "familiar",
+        "meaning": "a. 熟悉的, 常见的, 亲密的\nn. 熟友, 常客",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-陌生的",
+    "chinese": "陌生的",
+    "english": "unfamiliar",
+    "entryId": "unfamiliar",
+    "policy": "adjective",
+    "evidence": "不熟悉",
+    "sources": [
+      {
+        "word": "unfamiliar",
+        "meaning": "a. 不熟悉的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-干净的",
+    "chinese": "干净的",
+    "english": "clean",
+    "entryId": "clean",
+    "policy": "adjective",
+    "evidence": "干净",
+    "sources": [
+      {
+        "word": "clean",
+        "meaning": "a. 干净的, 清白的, 简洁的\nadv. 清洁地, 完全地\nvt. 清理, 使干净, 出空\nvi. 被搞干净\nn. 打扫",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-黑暗的",
+    "chinese": "黑暗的",
+    "english": "dark",
+    "entryId": "dark",
+    "policy": "adjective",
+    "evidence": "黑暗",
+    "sources": [
+      {
+        "word": "dark",
+        "meaning": "n. 黑暗, 夜, 黄昏, 模糊\na. 黑暗的, 暗的, 深色的, 隐密的, 模糊的, 无知的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-明亮的",
+    "chinese": "明亮的",
+    "english": "bright",
+    "entryId": "bright",
+    "policy": "adjective",
+    "evidence": "明亮",
+    "sources": [
+      {
+        "word": "bright",
+        "meaning": "a. 明亮的, 聪明的, 鲜明的, 欢快的\nadv. 明亮地, 欢快地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-微弱的",
+    "chinese": "微弱的",
+    "english": "faint",
+    "entryId": "faint",
+    "policy": "adjective",
+    "evidence": "微弱",
+    "sources": [
+      {
+        "word": "faint",
+        "meaning": "n. 昏厥, 昏倒\na. 模糊的, 微弱的, 无力的\nvi. 昏倒, 变得微弱",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-柔软的",
+    "chinese": "柔软的",
+    "english": "soft",
+    "entryId": "soft",
+    "policy": "adjective",
+    "evidence": "柔软",
+    "sources": [
+      {
+        "word": "soft",
+        "meaning": "a. 软的, 温和的, 柔和的, 柔滑的, 温柔的, 软弱的, 坡度小的, 笨的, 纸币的\nn. 柔软的东西, 笨人, 纸币\nadv. 柔软地, 温和地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-柔和的",
+    "chinese": "柔和的",
+    "english": "soft",
+    "entryId": "soft",
+    "policy": "adjective",
+    "evidence": "柔和",
+    "sources": [
+      {
+        "word": "soft",
+        "meaning": "a. 软的, 温和的, 柔和的, 柔滑的, 温柔的, 软弱的, 坡度小的, 笨的, 纸币的\nn. 柔软的东西, 笨人, 纸币\nadv. 柔软地, 温和地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-遥远的",
+    "chinese": "遥远的",
+    "english": "distant",
+    "entryId": "distant",
+    "policy": "adjective",
+    "evidence": "远的",
+    "sources": [
+      {
+        "word": "distant",
+        "meaning": "a. 远的, 疏远的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-古老的",
+    "chinese": "古老的",
+    "english": "ancient",
+    "entryId": "ancient",
+    "policy": "adjective",
+    "evidence": "古老",
+    "sources": [
+      {
+        "word": "ancient",
+        "meaning": "a. 古代的, 古老的, 年老的, 旧的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-年轻的",
+    "chinese": "年轻的",
+    "english": "young",
+    "entryId": "young",
+    "policy": "adjective",
+    "evidence": "年轻",
+    "sources": [
+      {
+        "word": "young",
+        "meaning": "a. 年轻的, 无经验的, 朝气蓬勃的\nn. 青年们, 幼小动物, 崽",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-年老的",
+    "chinese": "年老的",
+    "english": "elderly",
+    "entryId": "elderly",
+    "policy": "adjective",
+    "evidence": "稍老",
+    "sources": [
+      {
+        "word": "elderly",
+        "meaning": "a. 过了中年的, 稍老的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-美丽的",
+    "chinese": "美丽的",
+    "english": "beautiful",
+    "entryId": "beautiful",
+    "policy": "adjective",
+    "evidence": "美丽",
+    "sources": [
+      {
+        "word": "beautiful",
+        "meaning": "a. 美丽的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-漂亮的",
+    "chinese": "漂亮的",
+    "english": "pretty",
+    "entryId": "pretty",
+    "policy": "adjective",
+    "evidence": "漂亮",
+    "sources": [
+      {
+        "word": "pretty",
+        "meaning": "a. 漂亮的, 优美的, 机灵的, 狡猾的, 恰当的\nadv. 相当, 颇",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-奇怪的",
+    "chinese": "奇怪的",
+    "english": "strange",
+    "entryId": "strange",
+    "policy": "adjective",
+    "evidence": "奇怪",
+    "sources": [
+      {
+        "word": "strange",
+        "meaning": "a. 奇怪的, 陌生的, 生疏的, 不熟悉的, 不可思议的, 外行的, 外地的, 异乡的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-普通的",
+    "chinese": "普通的",
+    "english": "ordinary",
+    "entryId": "ordinary",
+    "policy": "adjective",
+    "evidence": "普通",
+    "sources": [
+      {
+        "word": "ordinary",
+        "meaning": "a. 平常的, 普通的, 平凡的\nn. 平常的人(或事)",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-平凡的",
+    "chinese": "平凡的",
+    "english": "ordinary",
+    "entryId": "ordinary",
+    "policy": "adjective",
+    "evidence": "平凡",
+    "sources": [
+      {
+        "word": "ordinary",
+        "meaning": "a. 平常的, 普通的, 平凡的\nn. 平常的人(或事)",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-特别的",
+    "chinese": "特别的",
+    "english": "special",
+    "entryId": "special",
+    "policy": "adjective",
+    "evidence": "特别",
+    "sources": [
+      {
+        "word": "special",
+        "meaning": "n. 专辑, 专车, 号外, 特别的东西, 负有特别任务的人员\na. 特别的, 专门的, 特殊的, 额外的, 附加的, 特别亲密的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-重要的",
+    "chinese": "重要的",
+    "english": "important",
+    "entryId": "important",
+    "policy": "adjective",
+    "evidence": "重要",
+    "sources": [
+      {
+        "word": "important",
+        "meaning": "a. 重要的, 有地位的, 大量的, 显要的, 自负的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-温柔的",
+    "chinese": "温柔的",
+    "english": "gentle",
+    "entryId": "gentle",
+    "policy": "adjective",
+    "evidence": "温和",
+    "sources": [
+      {
+        "word": "gentle",
+        "meaning": "a. 温和的, 文雅的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-孤独的",
+    "chinese": "孤独的",
+    "english": "lonely",
+    "entryId": "lonely",
+    "policy": "adjective",
+    "evidence": "孤寂",
+    "sources": [
+      {
+        "word": "lonely",
+        "meaning": "a. 孤单的, 孤寂的, 荒凉的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-寂寞的",
+    "chinese": "寂寞的",
+    "english": "lonely",
+    "entryId": "lonely",
+    "policy": "adjective",
+    "evidence": "孤寂",
+    "sources": [
+      {
+        "word": "lonely",
+        "meaning": "a. 孤单的, 孤寂的, 荒凉的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-疲惫的",
+    "chinese": "疲惫的",
+    "english": "tired",
+    "entryId": "tired",
+    "policy": "adjective",
+    "evidence": "疲累",
+    "sources": [
+      {
+        "word": "tired",
+        "meaning": "a. 疲累的, 疲乏的, 厌倦的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-疲倦的",
+    "chinese": "疲倦的",
+    "english": "tired",
+    "entryId": "tired",
+    "policy": "adjective",
+    "evidence": "疲累",
+    "sources": [
+      {
+        "word": "tired",
+        "meaning": "a. 疲累的, 疲乏的, 厌倦的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-紧张的",
+    "chinese": "紧张的",
+    "english": "nervous",
+    "entryId": "nervous",
+    "policy": "adjective",
+    "evidence": "紧张",
+    "sources": [
+      {
+        "word": "nervous",
+        "meaning": "a. 神经紧张的, 不安的, 神经的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-害怕的",
+    "chinese": "害怕的",
+    "english": "afraid",
+    "entryId": "afraid",
+    "policy": "predicate",
+    "evidence": "害怕",
+    "sources": [
+      {
+        "word": "afraid",
+        "meaning": "a. 害怕的, 恐怕的, 遗憾的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-安全的",
+    "chinese": "安全的",
+    "english": "safe",
+    "entryId": "safe",
+    "policy": "adjective",
+    "evidence": "安全",
+    "sources": [
+      {
+        "word": "safe",
+        "meaning": "n. 保险箱, 冷藏室\na. 安全的, 可靠的, 平安的, 稳健的, 有把握的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-危险的",
+    "chinese": "危险的",
+    "english": "dangerous",
+    "entryId": "dangerous",
+    "policy": "adjective",
+    "evidence": "危险",
+    "sources": [
+      {
+        "word": "dangerous",
+        "meaning": "a. 危险的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-勇敢的",
+    "chinese": "勇敢的",
+    "english": "brave",
+    "entryId": "brave",
+    "policy": "adjective",
+    "evidence": "勇敢",
+    "sources": [
+      {
+        "word": "brave",
+        "meaning": "a. 勇敢的, 美好的, 华丽的\nn. 勇敢者\nvt. 勇敢地面对",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-诚实的",
+    "chinese": "诚实的",
+    "english": "honest",
+    "entryId": "honest",
+    "policy": "adjective",
+    "evidence": "诚实",
+    "sources": [
+      {
+        "word": "honest",
+        "meaning": "a. 诚实的, 坦直的, 可靠的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-耐心的",
+    "chinese": "耐心的",
+    "english": "patient",
+    "entryId": "patient",
+    "policy": "adjective",
+    "evidence": "有耐性",
+    "sources": [
+      {
+        "word": "patient",
+        "meaning": "n. 病人, 承受者\na. 忍耐的, 容忍的, 有耐性的, 坚忍的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-失望的",
+    "chinese": "失望的",
+    "english": "disappointed",
+    "entryId": "disappointed",
+    "policy": "adjective",
+    "evidence": "失望",
+    "sources": [
+      {
+        "word": "disappointed",
+        "meaning": "a. 失望的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-兴奋的",
+    "chinese": "兴奋的",
+    "english": "excited",
+    "entryId": "excited",
+    "policy": "adjective",
+    "evidence": "兴奋",
+    "sources": [
+      {
+        "word": "excited",
+        "meaning": "a. 兴奋的, 已励磁的, 已激发的, 激昂的, 激动的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-快乐的",
+    "chinese": "快乐的",
+    "english": "happy",
+    "entryId": "happy",
+    "policy": "adjective",
+    "evidence": "快乐",
+    "sources": [
+      {
+        "word": "happy",
+        "meaning": "a. 快乐的, 幸福的, 愉快的, 恰当的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-开心的",
+    "chinese": "开心的",
+    "english": "happy",
+    "entryId": "happy",
+    "policy": "adjective",
+    "evidence": "快乐",
+    "sources": [
+      {
+        "word": "happy",
+        "meaning": "a. 快乐的, 幸福的, 愉快的, 恰当的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-悲伤的",
+    "chinese": "悲伤的",
+    "english": "sad",
+    "entryId": "sad",
+    "policy": "adjective",
+    "evidence": "悲哀",
+    "sources": [
+      {
+        "word": "sad",
+        "meaning": "a. 忧愁的, 悲哀的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-苍白的",
+    "chinese": "苍白的",
+    "english": "pale",
+    "entryId": "pale",
+    "policy": "adjective",
+    "evidence": "苍白",
+    "sources": [
+      {
+        "word": "pale",
+        "meaning": "n. 栅栏, 界线, 范围\na. 苍白的, 暗淡的, 无力的\nvi. 变苍白, 变暗, 失色\nvt. 使变苍白, 使失色, 用栅栏围",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-冰冷的",
+    "chinese": "冰冷的",
+    "english": "icy",
+    "entryId": "icy",
+    "policy": "adjective",
+    "evidence": "冰冷",
+    "sources": [
+      {
+        "word": "icy",
+        "meaning": "a. 冰的, 冰冷的, 冷淡的, 滑溜的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-潮湿的",
+    "chinese": "潮湿的",
+    "english": "damp",
+    "entryId": "damp",
+    "policy": "adjective",
+    "evidence": "潮湿",
+    "sources": [
+      {
+        "word": "damp",
+        "meaning": "n. 潮湿, 湿气\na. 潮湿的\nvt. 使潮湿, 使阻尼, 抑止\nvi. 变潮湿, 衰减",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-空荡荡的",
+    "chinese": "空荡荡的",
+    "english": "empty",
+    "entryId": "empty",
+    "policy": "adjective",
+    "evidence": "空",
+    "sources": [
+      {
+        "word": "empty",
+        "meaning": "a. 空的, 空虚的, 空腹的, 空洞的\nn. 空的东西, 空车\nvt. 倒空, 使变空, 使排出\nvi. 流空",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-狭窄的",
+    "chinese": "狭窄的",
+    "english": "narrow",
+    "entryId": "narrow",
+    "policy": "adjective",
+    "evidence": "狭窄",
+    "sources": [
+      {
+        "word": "narrow",
+        "meaning": "n. 狭窄部分, 隘路\na. 狭窄的, 仔细的, 有限的, 勉强的, 狭隘的, 手紧的\nvi. 变窄\nvt. 使变狭窄",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-宽阔的",
+    "chinese": "宽阔的",
+    "english": "wide",
+    "entryId": "wide",
+    "policy": "adjective",
+    "evidence": "宽阔",
+    "sources": [
+      {
+        "word": "wide",
+        "meaning": "a. 宽的, 广阔的, 普遍的, 宽阔的, 广泛的, 一般的\nadv. 广阔地, 遍及各处地, 广泛地\nn. 大千世界",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-沉重的",
+    "chinese": "沉重的",
+    "english": "heavy",
+    "entryId": "heavy",
+    "policy": "adjective",
+    "evidence": "沉重",
+    "sources": [
+      {
+        "word": "heavy",
+        "meaning": "a. 重的, 巨大的, 沉重的, 笨重的, 过度的\nadv. 沉重地\nn. 重物, 严肃角色",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-轻盈的",
+    "chinese": "轻盈的",
+    "english": "light",
+    "entryId": "light",
+    "policy": "adjective",
+    "evidence": "轻",
+    "sources": [
+      {
+        "word": "light",
+        "meaning": "n. 光, 光亮, 灯, 日光, 发光体, 光源, 杰出人物, 火花, 眼光\na. 轻的, 少量的, 轻微的, 轻快的, 轻浮的, 明亮的, 淡色的, 容易的\nvt. 点燃, 照亮\nvi. 点着, 变亮, 突降, 偶然碰到\nadv. 轻地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-厚厚的",
+    "chinese": "厚厚的",
+    "english": "thick",
+    "entryId": "thick",
+    "policy": "adjective",
+    "evidence": "厚",
+    "sources": [
+      {
+        "word": "thick",
+        "meaning": "a. 厚的, 粗壮的, 浓的, 迟钝的, 浑浊的, 多雾的, 过分的, 口齿不清的\nadv. 厚地, 密地, 浓浓地\nn. 最浓处, 最厚处, 最密集处",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-薄薄的",
+    "chinese": "薄薄的",
+    "english": "thin",
+    "entryId": "thin",
+    "policy": "adjective",
+    "evidence": "薄",
+    "sources": [
+      {
+        "word": "thin",
+        "meaning": "a. 薄的, 细的, 瘦的, 稀疏的, 稀薄的, 淡的, 弱的, 空洞的\nvt. 使变薄, 使变细, 使稀少, 使淡\nvi. 变薄, 变细, 变少, 变淡\nadv. 薄地, 稀疏地, 微弱地\nn. 细小部分",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-清澈的",
+    "chinese": "清澈的",
+    "english": "clear",
+    "entryId": "clear",
+    "policy": "adjective",
+    "evidence": "清澈",
+    "sources": [
+      {
+        "word": "clear",
+        "meaning": "a. 清楚的, 明确的, 澄清的\nadv. 清晰地\nvt. 澄清, 清除障碍\nvi. 放晴, 变清澈\nn. 空隙",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-蓝色的",
+    "chinese": "蓝色的",
+    "english": "blue",
+    "entryId": "blue",
+    "policy": "adjective",
+    "evidence": "蓝色",
+    "sources": [
+      {
+        "word": "blue",
+        "meaning": "n. 蓝色\na. 蓝色的, 下流的, 忧郁的\nvt. 染成蓝色\nvi. 变蓝",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-绿色的",
+    "chinese": "绿色的",
+    "english": "green",
+    "entryId": "green",
+    "policy": "adjective",
+    "evidence": "绿色",
+    "sources": [
+      {
+        "word": "green",
+        "meaning": "n. 绿色, 绿色颜料\na. 绿色的, 未成熟的, 新鲜的, 青春的, 无经验的, 脸色发青的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-红色的",
+    "chinese": "红色的",
+    "english": "red",
+    "entryId": "red",
+    "policy": "adjective",
+    "evidence": "红色",
+    "sources": [
+      {
+        "word": "red",
+        "meaning": "a. 红的, 红色的, 红肿的, 流血的\nn. 红色, 红颜料, 赤字",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-白色的",
+    "chinese": "白色的",
+    "english": "white",
+    "entryId": "white",
+    "policy": "adjective",
+    "evidence": "白色",
+    "sources": [
+      {
+        "word": "white",
+        "meaning": "n. 白色, 洁白, 眼白, 白种人, 蛋白\na. 白色的, 纯洁的, 白种的, 苍白的, 空白的, 幸运的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-黑色的",
+    "chinese": "黑色的",
+    "english": "black",
+    "entryId": "black",
+    "policy": "adjective",
+    "evidence": "黑色",
+    "sources": [
+      {
+        "word": "black",
+        "meaning": "n. 黑色, 黑颜料\na. 黑色的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-金色的",
+    "chinese": "金色的",
+    "english": "golden",
+    "entryId": "golden",
+    "policy": "adjective",
+    "evidence": "金色",
+    "sources": [
+      {
+        "word": "golden",
+        "meaning": "a. 金的, 含金的, 金色的, 贵重的, 繁盛的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-灰色的",
+    "chinese": "灰色的",
+    "english": "gray",
+    "entryId": "gray",
+    "policy": "adjective",
+    "evidence": "灰色",
+    "sources": [
+      {
+        "word": "gray",
+        "meaning": "n. 灰色, 暗淡\na. 灰色的, 灰白的, 面色苍白的, 年老的, 老练的, 阴沉的\nv. (使)变灰色",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-淡蓝色的",
+    "chinese": "淡蓝色的",
+    "english": "light blue",
+    "entryId": "light blue",
+    "policy": "adjective",
+    "evidence": "淡蓝",
+    "sources": [
+      {
+        "word": "light blue",
+        "meaning": "[医] 淡蓝",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-深绿色的",
+    "chinese": "深绿色的",
+    "english": "dark green",
+    "entryId": "dark green",
+    "policy": "adjective",
+    "evidence": "深;绿色",
+    "sources": [
+      {
+        "word": "dark",
+        "meaning": "n. 黑暗, 夜, 黄昏, 模糊\na. 黑暗的, 暗的, 深色的, 隐密的, 模糊的, 无知的",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "green",
+        "meaning": "n. 绿色, 绿色颜料\na. 绿色的, 未成熟的, 新鲜的, 青春的, 无经验的, 脸色发青的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-书店",
+    "chinese": "书店",
+    "english": "bookshop",
+    "entryId": "bookshop",
+    "policy": "count",
+    "plural": "bookshops",
+    "evidence": "书店",
+    "sources": [
+      {
+        "word": "bookshop",
+        "meaning": "n. 书店",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-邮票",
+    "chinese": "邮票",
+    "english": "stamp",
+    "entryId": "stamp",
+    "policy": "count",
+    "plural": "stamps",
+    "evidence": "邮票",
+    "sources": [
+      {
+        "word": "stamp",
+        "meaning": "n. 印, 邮票, 打印器, 戳子, 图章, 印花税票, 标志, 特征, 类型, 跺脚\nvt. 盖章于, 顿足, 贴上邮票, 铭刻, 捣碎, 扑灭\nvi. 捣碎, 跺脚",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-灯塔",
+    "chinese": "灯塔",
+    "english": "lighthouse",
+    "entryId": "lighthouse",
+    "policy": "count",
+    "plural": "lighthouses",
+    "evidence": "灯塔",
+    "sources": [
+      {
+        "word": "lighthouse",
+        "meaning": "n. 灯塔",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-码头",
+    "chinese": "码头",
+    "english": "dock",
+    "entryId": "dock",
+    "policy": "count",
+    "plural": "docks",
+    "evidence": "码头",
+    "sources": [
+      {
+        "word": "dock",
+        "meaning": "n. 码头, 船坞, 被告席, 尾巴的骨肉部分\nvt. 使靠码头, 使(船)进港, 剪短\nvi. 进港",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-港口",
+    "chinese": "港口",
+    "english": "harbor",
+    "entryId": "harbor",
+    "policy": "count",
+    "plural": "harbors",
+    "evidence": "港",
+    "sources": [
+      {
+        "word": "harbor",
+        "meaning": "n. 港, 避难所\nv. 庇护, 藏匿, (使)入港停泊",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-翅膀",
+    "chinese": "翅膀",
+    "english": "wing",
+    "entryId": "wing",
+    "policy": "count",
+    "plural": "wings",
+    "evidence": "翅膀",
+    "sources": [
+      {
+        "word": "wing",
+        "meaning": "n. 翅膀, 翼, 机翼, 派别\nvt. 给...装上翼, 飞过, 使飞, 空运, 增加...速度\nvi. 飞行",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-口袋",
+    "chinese": "口袋",
+    "english": "pocket",
+    "entryId": "pocket",
+    "policy": "count",
+    "plural": "pockets",
+    "evidence": "口袋",
+    "sources": [
+      {
+        "word": "pocket",
+        "meaning": "n. 口袋, 钱袋, 钱, 容器\nvt. 装...在口袋里, 隐藏, 抑制, 私吞, 搁置, 击...入袋\na. 袖珍的, 小型的, 压缩的, 金钱上的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-招牌",
+    "chinese": "招牌",
+    "english": "signboard",
+    "entryId": "signboard",
+    "policy": "count",
+    "plural": "signboards",
+    "evidence": "招牌",
+    "sources": [
+      {
+        "word": "signboard",
+        "meaning": "n. 招牌, 布告板",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-晾衣绳",
+    "chinese": "晾衣绳",
+    "english": "clothesline",
+    "entryId": "clothesline",
+    "policy": "count",
+    "plural": "clotheslines",
+    "evidence": "晒衣绳",
+    "sources": [
+      {
+        "word": "clothesline",
+        "meaning": "n. 晒衣绳",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-早餐",
+    "chinese": "早餐",
+    "english": "breakfast",
+    "entryId": "breakfast",
+    "policy": "noun",
+    "evidence": "早餐",
+    "sources": [
+      {
+        "word": "breakfast",
+        "meaning": "n. 早餐",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-午餐",
+    "chinese": "午餐",
+    "english": "lunch",
+    "entryId": "lunch",
+    "policy": "noun",
+    "evidence": "午餐",
+    "sources": [
+      {
+        "word": "lunch",
+        "meaning": "n. 午餐",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-晚餐",
+    "chinese": "晚餐",
+    "english": "dinner",
+    "entryId": "dinner",
+    "policy": "noun",
+    "evidence": "晚餐",
+    "sources": [
+      {
+        "word": "dinner",
+        "meaning": "n. 晚餐, 正餐, 宴会",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-凌晨",
+    "chinese": "凌晨",
+    "english": "early morning",
+    "entryId": "early morning",
+    "policy": "noun",
+    "evidence": "早;早晨",
+    "sources": [
+      {
+        "word": "early",
+        "meaning": "a. 早的, 早熟的\nadv. 很早, 初",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "morning",
+        "meaning": "n. 早晨, 早上, 初期",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-午夜",
+    "chinese": "午夜",
+    "english": "midnight",
+    "entryId": "midnight",
+    "policy": "noun",
+    "evidence": "午夜",
+    "sources": [
+      {
+        "word": "midnight",
+        "meaning": "n. 午夜, 子夜, 半夜\na. 午夜的, 半夜的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-夜晚",
+    "chinese": "夜晚",
+    "english": "night",
+    "entryId": "night",
+    "policy": "noun",
+    "evidence": "夜晚",
+    "sources": [
+      {
+        "word": "night",
+        "meaning": "n. 夜, 夜晚, 晚上, 黑暗, 夜晚的工作",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-清晨",
+    "chinese": "清晨",
+    "english": "early morning",
+    "entryId": "early morning",
+    "policy": "noun",
+    "evidence": "早;早晨",
+    "sources": [
+      {
+        "word": "early",
+        "meaning": "a. 早的, 早熟的\nadv. 很早, 初",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "morning",
+        "meaning": "n. 早晨, 早上, 初期",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-傍晚",
+    "chinese": "傍晚",
+    "english": "evening",
+    "entryId": "evening",
+    "policy": "noun",
+    "evidence": "傍晚",
+    "sources": [
+      {
+        "word": "evening",
+        "meaning": "n. 傍晚, 晚间, 末期",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-黄昏",
+    "chinese": "黄昏",
+    "english": "dusk",
+    "entryId": "dusk",
+    "policy": "noun",
+    "evidence": "黄昏",
+    "sources": [
+      {
+        "word": "dusk",
+        "meaning": "n. 薄暮, 傍晚, 黄昏\na. 微暗的\nv. (使)微暗",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-黎明",
+    "chinese": "黎明",
+    "english": "dawn",
+    "entryId": "dawn",
+    "policy": "noun",
+    "evidence": "黎明",
+    "sources": [
+      {
+        "word": "dawn",
+        "meaning": "n. 破晓, 黎明\nvi. 破晓",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-阳光",
+    "chinese": "阳光",
+    "english": "sunshine",
+    "entryId": "sunshine",
+    "policy": "noun",
+    "evidence": "阳光",
+    "sources": [
+      {
+        "word": "sunshine",
+        "meaning": "n. 阳光, 光明, 晴天",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-月光",
+    "chinese": "月光",
+    "english": "moonlight",
+    "entryId": "moonlight",
+    "policy": "noun",
+    "evidence": "月光",
+    "sources": [
+      {
+        "word": "moonlight",
+        "meaning": "n. 月光\na. 有月光的, 月夜的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-星光",
+    "chinese": "星光",
+    "english": "starlight",
+    "entryId": "starlight",
+    "policy": "noun",
+    "evidence": "星光",
+    "sources": [
+      {
+        "word": "starlight",
+        "meaning": "n. 星光",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-天空",
+    "chinese": "天空",
+    "english": "sky",
+    "entryId": "sky",
+    "policy": "noun",
+    "evidence": "天空",
+    "sources": [
+      {
+        "word": "sky",
+        "meaning": "n. 天空, 天色, 天堂\nvt. 击向空中, 挂在高处\nvi. 高涨",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-空气",
+    "chinese": "空气",
+    "english": "air",
+    "entryId": "air",
+    "policy": "noun",
+    "evidence": "空气",
+    "sources": [
+      {
+        "word": "air",
+        "meaning": "n. 空气, 旋律, 态度\nvt. 晾, 使通风, 夸耀",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-雨水",
+    "chinese": "雨水",
+    "english": "rainwater",
+    "entryId": "rainwater",
+    "policy": "noun",
+    "evidence": "雨水",
+    "sources": [
+      {
+        "word": "rainwater",
+        "meaning": "n. 雨水",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-雨伞",
+    "chinese": "雨伞",
+    "english": "umbrella",
+    "entryId": "umbrella",
+    "policy": "count",
+    "plural": "umbrellas",
+    "evidence": "伞",
+    "sources": [
+      {
+        "word": "umbrella",
+        "meaning": "n. 伞, 雨伞, 保护伞\na. 伞的, 包罗万象的\nvt. 用伞遮掩",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-雨衣",
+    "chinese": "雨衣",
+    "english": "raincoat",
+    "entryId": "raincoat",
+    "policy": "count",
+    "plural": "raincoats",
+    "evidence": "雨衣",
+    "sources": [
+      {
+        "word": "raincoat",
+        "meaning": "n. 雨衣",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-雪花",
+    "chinese": "雪花",
+    "english": "snowflake",
+    "entryId": "snowflake",
+    "policy": "count",
+    "plural": "snowflakes",
+    "evidence": "雪花",
+    "sources": [
+      {
+        "word": "snowflake",
+        "meaning": "n. 雪片, 雪花, 雪片莲",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-微风",
+    "chinese": "微风",
+    "english": "breeze",
+    "entryId": "breeze",
+    "policy": "noun",
+    "evidence": "微风",
+    "sources": [
+      {
+        "word": "breeze",
+        "meaning": "n. 微风, 煤屑, 轻而易举的事\nvi. 吹微风, 逃走",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-暴风雨",
+    "chinese": "暴风雨",
+    "english": "storm",
+    "entryId": "storm",
+    "policy": "count",
+    "plural": "storms",
+    "evidence": "暴风雨",
+    "sources": [
+      {
+        "word": "storm",
+        "meaning": "n. 暴风雨, 骚动, 风波, 风暴, 猛攻\nvi. 起风, 猛冲, 怒吼\nvt. 猛攻",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-雷声",
+    "chinese": "雷声",
+    "english": "thunder",
+    "entryId": "thunder",
+    "policy": "noun",
+    "evidence": "雷",
+    "sources": [
+      {
+        "word": "thunder",
+        "meaning": "n. 雷, 雷声\nvi. 打雷, 轰隆地响, 怒喝\nvt. 大声喊出, 轰隆地发出",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-闪电",
+    "chinese": "闪电",
+    "english": "lightning",
+    "entryId": "lightning",
+    "policy": "noun",
+    "evidence": "闪电",
+    "sources": [
+      {
+        "word": "lightning",
+        "meaning": "n. 闪电\nvi. 闪电\na. 闪电的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-彩虹",
+    "chinese": "彩虹",
+    "english": "rainbow",
+    "entryId": "rainbow",
+    "policy": "count",
+    "plural": "rainbows",
+    "evidence": "虹",
+    "sources": [
+      {
+        "word": "rainbow",
+        "meaning": "n. 彩虹\na. 五彩缤纷的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-森林",
+    "chinese": "森林",
+    "english": "forest",
+    "entryId": "forest",
+    "policy": "count",
+    "plural": "forests",
+    "evidence": "森林",
+    "sources": [
+      {
+        "word": "forest",
+        "meaning": "n. 森林, 林区\nvt. 植树于",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-河流",
+    "chinese": "河流",
+    "english": "river",
+    "entryId": "river",
+    "policy": "count",
+    "plural": "rivers",
+    "evidence": "河",
+    "sources": [
+      {
+        "word": "river",
+        "meaning": "n. 河, 江",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-山谷",
+    "chinese": "山谷",
+    "english": "valley",
+    "entryId": "valley",
+    "policy": "count",
+    "plural": "valleys",
+    "evidence": "山谷",
+    "sources": [
+      {
+        "word": "valley",
+        "meaning": "n. 山谷, 溪谷, 流域, 凹地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-山峰",
+    "chinese": "山峰",
+    "english": "peak",
+    "entryId": "peak",
+    "policy": "count",
+    "plural": "peaks",
+    "evidence": "山峰",
+    "sources": [
+      {
+        "word": "peak",
+        "meaning": "n. 山峰, 巅, 山顶, 顶点, 尖峰, 帽舌\na. 最高的, 最大值的\nvi. 到达最高点, 消瘦, 变憔悴, 逐渐缩小\nvt. 使竖起, 使达到最高点",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-小溪",
+    "chinese": "小溪",
+    "english": "stream",
+    "entryId": "stream",
+    "policy": "count",
+    "plural": "streams",
+    "evidence": "小河",
+    "sources": [
+      {
+        "word": "stream",
+        "meaning": "n. 水流, 小河, 流出, 趋势, 人潮\nvt. 流出, 流动, 展开\nvi. 流, 涌, 飘扬",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-溪水",
+    "chinese": "溪水",
+    "english": "stream",
+    "entryId": "stream",
+    "policy": "noun",
+    "evidence": "小河",
+    "sources": [
+      {
+        "word": "stream",
+        "meaning": "n. 水流, 小河, 流出, 趋势, 人潮\nvt. 流出, 流动, 展开\nvi. 流, 涌, 飘扬",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-石桥",
+    "chinese": "石桥",
+    "english": "stone bridge",
+    "entryId": "stone bridge",
+    "policy": "count",
+    "evidence": "石;桥",
+    "sources": [
+      {
+        "word": "stone",
+        "meaning": "n. 石头, 宝石, 果核, 纪念碑, 结石\nvt. 投扔石子, 铺石头\na. 石的, 石制的, 完全的",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "bridge",
+        "meaning": "n. 桥, 舰桥, 桥梁, 桥牌\nvt. 架桥于, 跨越",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-山路",
+    "chinese": "山路",
+    "english": "mountain road",
+    "entryId": "mountain road",
+    "policy": "count",
+    "evidence": "山;路",
+    "sources": [
+      {
+        "word": "mountain",
+        "meaning": "n. 山, 山脉, 大堆",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "road",
+        "meaning": "n. 路, 道路, 公路, 途径, 方法",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-树叶",
+    "chinese": "树叶",
+    "english": "leaf",
+    "entryId": "leaf",
+    "policy": "count",
+    "plural": "leaves",
+    "evidence": "叶",
+    "sources": [
+      {
+        "word": "leaf",
+        "meaning": "n. 叶, 树叶, 花瓣, 页\nvi. 生叶, 翻书页\nvt. 在...上长叶, 翻...的页",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-树枝",
+    "chinese": "树枝",
+    "english": "branch",
+    "entryId": "branch",
+    "policy": "count",
+    "plural": "branches",
+    "evidence": "树枝",
+    "sources": [
+      {
+        "word": "branch",
+        "meaning": "n. 树枝, 支店, 支流, 分部\nvi. 分支, 出枝\nvt. 分割, 用枝状叶脉刺绣花纹装饰",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-树根",
+    "chinese": "树根",
+    "english": "root",
+    "entryId": "root",
+    "policy": "count",
+    "plural": "roots",
+    "evidence": "根",
+    "sources": [
+      {
+        "word": "root",
+        "meaning": "n. 根, 根本, 根源, 基础, 底部\nvt. 使扎根, 使固定, 根除, 肃清, 搜出, 用鼻拱\nvi. 生根, 固定, 源于, 用鼻拱土, 寻找, 捧场, 支持",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-草地",
+    "chinese": "草地",
+    "english": "lawn",
+    "entryId": "lawn",
+    "policy": "count",
+    "plural": "lawns",
+    "evidence": "草地",
+    "sources": [
+      {
+        "word": "lawn",
+        "meaning": "n. 草地, 草坪, 上等细麻布",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-花园",
+    "chinese": "花园",
+    "english": "garden",
+    "entryId": "garden",
+    "policy": "count",
+    "plural": "gardens",
+    "evidence": "花园",
+    "sources": [
+      {
+        "word": "garden",
+        "meaning": "n. 花园, 果园, 菜园\nvi. 栽培花木\nvt. 造园\na. 花园的, 普通的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-池塘",
+    "chinese": "池塘",
+    "english": "pond",
+    "entryId": "pond",
+    "policy": "count",
+    "plural": "ponds",
+    "evidence": "池塘",
+    "sources": [
+      {
+        "word": "pond",
+        "meaning": "n. 池塘\nv. 筑成池塘",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-海滩",
+    "chinese": "海滩",
+    "english": "beach",
+    "entryId": "beach",
+    "policy": "count",
+    "plural": "beaches",
+    "evidence": "海滩",
+    "sources": [
+      {
+        "word": "beach",
+        "meaning": "n. 海滩",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-沙滩",
+    "chinese": "沙滩",
+    "english": "beach",
+    "entryId": "beach",
+    "policy": "count",
+    "plural": "beaches",
+    "evidence": "海滩",
+    "sources": [
+      {
+        "word": "beach",
+        "meaning": "n. 海滩",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-海浪",
+    "chinese": "海浪",
+    "english": "wave",
+    "entryId": "wave",
+    "policy": "count",
+    "plural": "waves",
+    "evidence": "波浪",
+    "sources": [
+      {
+        "word": "wave",
+        "meaning": "n. 波, 波浪, 波动, 起伏, 高潮, 潮涌, 挥手致意, (气压)突变\nvi. 波动, 飘动, 挥手示意, 起伏\nvt. 使波动, 使飘扬, 挥舞, 使成波浪形",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-石头",
+    "chinese": "石头",
+    "english": "stone",
+    "entryId": "stone",
+    "policy": "count",
+    "plural": "stones",
+    "evidence": "石头",
+    "sources": [
+      {
+        "word": "stone",
+        "meaning": "n. 石头, 宝石, 果核, 纪念碑, 结石\nvt. 投扔石子, 铺石头\na. 石的, 石制的, 完全的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-岩石",
+    "chinese": "岩石",
+    "english": "rock",
+    "entryId": "rock",
+    "policy": "count",
+    "plural": "rocks",
+    "evidence": "岩石",
+    "sources": [
+      {
+        "word": "rock",
+        "meaning": "n. 岩石, 岩礁, 石头, 基石, 暗礁, 摇动, 摇滚乐\nvt. 摇摆, 摇动, 使摇晃, 使动摇\nvi. 摇, 摇动",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-竹子",
+    "chinese": "竹子",
+    "english": "bamboo",
+    "entryId": "bamboo",
+    "policy": "noun",
+    "evidence": "竹",
+    "sources": [
+      {
+        "word": "bamboo",
+        "meaning": "n. 竹子",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-竹笋",
+    "chinese": "竹笋",
+    "english": "bamboo shoot",
+    "entryId": "bamboo shoot",
+    "policy": "count",
+    "evidence": "竹笋",
+    "sources": [
+      {
+        "word": "bamboo shoot",
+        "meaning": "笋, 竹笋",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-甲虫",
+    "chinese": "甲虫",
+    "english": "beetle",
+    "entryId": "beetle",
+    "policy": "count",
+    "plural": "beetles",
+    "evidence": "甲虫",
+    "sources": [
+      {
+        "word": "beetle",
+        "meaning": "n. 甲虫, 大槌\nvi. 快速移动\nvt. 捶",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-蝴蝶",
+    "chinese": "蝴蝶",
+    "english": "butterfly",
+    "entryId": "butterfly",
+    "policy": "count",
+    "plural": "butterflies",
+    "evidence": "蝴蝶",
+    "sources": [
+      {
+        "word": "butterfly",
+        "meaning": "n. 蝴蝶",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-蜻蜓",
+    "chinese": "蜻蜓",
+    "english": "dragonfly",
+    "entryId": "dragonfly",
+    "policy": "count",
+    "plural": "dragonflies",
+    "evidence": "蜻蜓",
+    "sources": [
+      {
+        "word": "dragonfly",
+        "meaning": "n. 蜻蜓",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-麻雀",
+    "chinese": "麻雀",
+    "english": "sparrow",
+    "entryId": "sparrow",
+    "policy": "count",
+    "plural": "sparrows",
+    "evidence": "麻雀",
+    "sources": [
+      {
+        "word": "sparrow",
+        "meaning": "n. 麻雀",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-燕子",
+    "chinese": "燕子",
+    "english": "swallow",
+    "entryId": "swallow",
+    "policy": "count",
+    "plural": "swallows",
+    "evidence": "燕",
+    "sources": [
+      {
+        "word": "swallow",
+        "meaning": "n. 燕子, 吞咽, 喉\nvt. 咽, 淹没, 吞没, 耗尽, 轻信, 忍受, 抑制\nvi. 吞下, 咽下",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-乌鸦",
+    "chinese": "乌鸦",
+    "english": "crow",
+    "entryId": "crow",
+    "policy": "count",
+    "plural": "crows",
+    "evidence": "乌鸦",
+    "sources": [
+      {
+        "word": "crow",
+        "meaning": "n. 啼叫, 乌鸦, 鸡鸣, 撬棍\nvi. 啼叫, 报晓",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-羽毛",
+    "chinese": "羽毛",
+    "english": "feather",
+    "entryId": "feather",
+    "policy": "count",
+    "plural": "feathers",
+    "evidence": "羽毛",
+    "sources": [
+      {
+        "word": "feather",
+        "meaning": "n. 羽毛\nvi. 长羽毛\nvt. 用羽毛装饰",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-脚印",
+    "chinese": "脚印",
+    "english": "footprint",
+    "entryId": "footprint",
+    "policy": "count",
+    "plural": "footprints",
+    "evidence": "足迹",
+    "sources": [
+      {
+        "word": "footprint",
+        "meaning": "n. 足迹\n[计] 印迹",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-脚步声",
+    "chinese": "脚步声",
+    "english": "footsteps",
+    "entryId": "footsteps",
+    "policy": "noun",
+    "evidence": "脚步",
+    "sources": [
+      {
+        "word": "footsteps",
+        "meaning": "n. 步距；脚步（footstep的复数形式）",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-影子",
+    "chinese": "影子",
+    "english": "shadow",
+    "entryId": "shadow",
+    "policy": "count",
+    "plural": "shadows",
+    "evidence": "影子",
+    "sources": [
+      {
+        "word": "shadow",
+        "meaning": "n. 阴影, 荫, 影子, 影像, 阴暗, 幽灵, 少许, 隐蔽处, 庇护\nvt. 遮蔽, 使朦胧, 预示, 尾随\nvi. 渐变, 变阴暗",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-声音",
+    "chinese": "声音",
+    "english": "sound",
+    "entryId": "sound",
+    "policy": "count",
+    "plural": "sounds",
+    "evidence": "声音",
+    "sources": [
+      {
+        "word": "sound",
+        "meaning": "n. 声音, 语音, 吵闹, 声调, 听力范围, 探条, 海峡\na. 健全的, 可靠的, 合理的, 健康的, 彻底的, 资金充实的\nadv. 彻底地, 充分地\nvi. 发出声音, 回响, 测深, 试探, 听起来\nvt. 使发声, 宣告, 听诊, 测...深, 试探",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-笑声",
+    "chinese": "笑声",
+    "english": "laughter",
+    "entryId": "laughter",
+    "policy": "noun",
+    "evidence": "笑",
+    "sources": [
+      {
+        "word": "laughter",
+        "meaning": "n. 笑, 笑声",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-笑容",
+    "chinese": "笑容",
+    "english": "smile",
+    "entryId": "smile",
+    "policy": "count",
+    "plural": "smiles",
+    "evidence": "微笑",
+    "sources": [
+      {
+        "word": "smile",
+        "meaning": "n. 微笑, 喜色, 笑容\nvi. 微笑, 觉得好笑\nvt. 微笑着表示",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-泪水",
+    "chinese": "泪水",
+    "english": "tears",
+    "entryId": "tears",
+    "policy": "noun",
+    "evidence": "泪",
+    "sources": [
+      {
+        "word": "tears",
+        "meaning": "n. 眼泪；泪水（tear复数形式）",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-眼泪",
+    "chinese": "眼泪",
+    "english": "tears",
+    "entryId": "tears",
+    "policy": "noun",
+    "evidence": "泪",
+    "sources": [
+      {
+        "word": "tears",
+        "meaning": "n. 眼泪；泪水（tear复数形式）",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-脸颊",
+    "chinese": "脸颊",
+    "english": "cheek",
+    "entryId": "cheek",
+    "policy": "count",
+    "plural": "cheeks",
+    "evidence": "脸蛋",
+    "sources": [
+      {
+        "word": "cheek",
+        "meaning": "n. 颊, 厚颜, 脸蛋",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-手指",
+    "chinese": "手指",
+    "english": "finger",
+    "entryId": "finger",
+    "policy": "count",
+    "plural": "fingers",
+    "evidence": "手指",
+    "sources": [
+      {
+        "word": "finger",
+        "meaning": "n. 手指, 指状物, (手套的)手指部分, 指针\nv. 用手指拨弄, 伸出",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-肩膀",
+    "chinese": "肩膀",
+    "english": "shoulder",
+    "entryId": "shoulder",
+    "policy": "count",
+    "plural": "shoulders",
+    "evidence": "肩",
+    "sources": [
+      {
+        "word": "shoulder",
+        "meaning": "n. 肩, 肩膀, 衣肩\nvt. 肩负, 负担, 担任\nvi. 用肩推挤",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-心跳",
+    "chinese": "心跳",
+    "english": "heartbeat",
+    "entryId": "heartbeat",
+    "policy": "noun",
+    "evidence": "心跳",
+    "sources": [
+      {
+        "word": "heartbeat",
+        "meaning": "n. 心跳",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-呼吸",
+    "chinese": "呼吸",
+    "english": "breath",
+    "entryId": "breath",
+    "policy": "noun",
+    "evidence": "呼吸",
+    "sources": [
+      {
+        "word": "breath",
+        "meaning": "n. 呼吸, 气息, 瞬间",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-勇气",
+    "chinese": "勇气",
+    "english": "courage",
+    "entryId": "courage",
+    "policy": "noun",
+    "evidence": "勇气",
+    "sources": [
+      {
+        "word": "courage",
+        "meaning": "n. 勇气, 胆量",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-耐心",
+    "chinese": "耐心",
+    "english": "patience",
+    "entryId": "patience",
+    "policy": "noun",
+    "evidence": "耐性",
+    "sources": [
+      {
+        "word": "patience",
+        "meaning": "n. 耐性, 忍耐",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-好奇心",
+    "chinese": "好奇心",
+    "english": "curiosity",
+    "entryId": "curiosity",
+    "policy": "noun",
+    "evidence": "好奇心",
+    "sources": [
+      {
+        "word": "curiosity",
+        "meaning": "n. 好奇心, 新奇的事物, 珍品",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-信心",
+    "chinese": "信心",
+    "english": "confidence",
+    "entryId": "confidence",
+    "policy": "noun",
+    "evidence": "信心",
+    "sources": [
+      {
+        "word": "confidence",
+        "meaning": "n. 信心",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-喜悦",
+    "chinese": "喜悦",
+    "english": "joy",
+    "entryId": "joy",
+    "policy": "noun",
+    "evidence": "欢喜",
+    "sources": [
+      {
+        "word": "joy",
+        "meaning": "n. 欢喜, 乐事, 高兴\nvt. 使快乐, 令人高兴\nvi. 欢喜",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-悲伤",
+    "chinese": "悲伤",
+    "english": "sadness",
+    "entryId": "sadness",
+    "policy": "noun",
+    "evidence": "悲哀",
+    "sources": [
+      {
+        "word": "sadness",
+        "meaning": "n. 悲哀, 悲伤",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-恐惧",
+    "chinese": "恐惧",
+    "english": "fear",
+    "entryId": "fear",
+    "policy": "noun",
+    "evidence": "恐惧",
+    "sources": [
+      {
+        "word": "fear",
+        "meaning": "n. 恐怖, 害怕, 担心\nv. 害怕, 恐惧, 为...担心, 敬畏",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-愤怒",
+    "chinese": "愤怒",
+    "english": "anger",
+    "entryId": "anger",
+    "policy": "noun",
+    "evidence": "忿怒",
+    "sources": [
+      {
+        "word": "anger",
+        "meaning": "n. 忿怒\nvt. 激怒, 使发怒\nvi. 发怒",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-孤独",
+    "chinese": "孤独",
+    "english": "loneliness",
+    "entryId": "loneliness",
+    "policy": "noun",
+    "evidence": "孤独",
+    "sources": [
+      {
+        "word": "loneliness",
+        "meaning": "n. 寂寞, 孤独, 清静",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-寂寞",
+    "chinese": "寂寞",
+    "english": "loneliness",
+    "entryId": "loneliness",
+    "policy": "noun",
+    "evidence": "寂寞",
+    "sources": [
+      {
+        "word": "loneliness",
+        "meaning": "n. 寂寞, 孤独, 清静",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-友谊",
+    "chinese": "友谊",
+    "english": "friendship",
+    "entryId": "friendship",
+    "policy": "noun",
+    "evidence": "友谊",
+    "sources": [
+      {
+        "word": "friendship",
+        "meaning": "n. 友谊, 友爱, 友善",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-回忆",
+    "chinese": "回忆",
+    "english": "memory",
+    "entryId": "memory",
+    "policy": "count",
+    "plural": "memories",
+    "evidence": "回忆",
+    "sources": [
+      {
+        "word": "memory",
+        "meaning": "n. 记忆, 记忆力, 回忆, 纪念, 存储\nn. 内存",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-旅程",
+    "chinese": "旅程",
+    "english": "journey",
+    "entryId": "journey",
+    "policy": "count",
+    "plural": "journeys",
+    "evidence": "旅程",
+    "sources": [
+      {
+        "word": "journey",
+        "meaning": "n. 旅程, 旅行, 行程\nvi. 旅行\nvt. 游历",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-诺言",
+    "chinese": "诺言",
+    "english": "promise",
+    "entryId": "promise",
+    "policy": "count",
+    "plural": "promises",
+    "evidence": "诺言",
+    "sources": [
+      {
+        "word": "promise",
+        "meaning": "n. 诺言, 约定的事情, 有指望\nvt. 允诺, 约定, 预示\nvi. 允诺, 有前途, 有指望",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-谜团",
+    "chinese": "谜团",
+    "english": "mystery",
+    "entryId": "mystery",
+    "policy": "count",
+    "plural": "mysteries",
+    "evidence": "神秘",
+    "sources": [
+      {
+        "word": "mystery",
+        "meaning": "n. 秘密, 神秘, 奥秘",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-阴谋",
+    "chinese": "阴谋",
+    "english": "conspiracy",
+    "entryId": "conspiracy",
+    "policy": "count",
+    "plural": "conspiracies",
+    "evidence": "阴谋",
+    "sources": [
+      {
+        "word": "conspiracy",
+        "meaning": "n. 同谋, 阴谋, 阴谋集团",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-梦境",
+    "chinese": "梦境",
+    "english": "dream",
+    "entryId": "dream",
+    "policy": "count",
+    "plural": "dreams",
+    "evidence": "梦",
+    "sources": [
+      {
+        "word": "dream",
+        "meaning": "n. 梦, 空想, 愿望\nv. 做梦, 想象, 梦想",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-灯笼",
+    "chinese": "灯笼",
+    "english": "lantern",
+    "entryId": "lantern",
+    "policy": "count",
+    "plural": "lanterns",
+    "evidence": "灯笼",
+    "sources": [
+      {
+        "word": "lantern",
+        "meaning": "n. 灯笼, 提灯, 航标灯\nvt. 装上提灯",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-陌生人",
+    "chinese": "陌生人",
+    "english": "stranger",
+    "entryId": "stranger",
+    "policy": "count",
+    "plural": "strangers",
+    "evidence": "陌生人",
+    "sources": [
+      {
+        "word": "stranger",
+        "meaning": "n. 陌生人, 门外汉",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-朋友",
+    "chinese": "朋友",
+    "english": "friend",
+    "entryId": "friend",
+    "policy": "count",
+    "plural": "friends",
+    "evidence": "朋友",
+    "sources": [
+      {
+        "word": "friend",
+        "meaning": "n. 朋友, 支持者, 赞助者",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-邻居",
+    "chinese": "邻居",
+    "english": "neighbor",
+    "entryId": "neighbor",
+    "policy": "count",
+    "plural": "neighbors",
+    "evidence": "邻居",
+    "sources": [
+      {
+        "word": "neighbor",
+        "meaning": "n. 邻居\nvt. 邻接\nvi. 毗邻而居, 友好\na. 邻近的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-同伴",
+    "chinese": "同伴",
+    "english": "companion",
+    "entryId": "companion",
+    "policy": "count",
+    "plural": "companions",
+    "evidence": "陪伴",
+    "sources": [
+      {
+        "word": "companion",
+        "meaning": "n. 朋友, 陪伴, 指南, 升降口围罩\nvt. 陪伴",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-客人",
+    "chinese": "客人",
+    "english": "guest",
+    "entryId": "guest",
+    "policy": "count",
+    "plural": "guests",
+    "evidence": "客人",
+    "sources": [
+      {
+        "word": "guest",
+        "meaning": "n. 客人, 来宾, 旅客",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-乘客",
+    "chinese": "乘客",
+    "english": "passenger",
+    "entryId": "passenger",
+    "policy": "count",
+    "plural": "passengers",
+    "evidence": "乘客",
+    "sources": [
+      {
+        "word": "passenger",
+        "meaning": "n. 乘客, 旅客",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-司机",
+    "chinese": "司机",
+    "english": "driver",
+    "entryId": "driver",
+    "policy": "count",
+    "plural": "drivers",
+    "evidence": "驾驶",
+    "sources": [
+      {
+        "word": "driver",
+        "meaning": "n. 驾驶员, 驱动器, 驱动程序",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-医生",
+    "chinese": "医生",
+    "english": "doctor",
+    "entryId": "doctor",
+    "policy": "count",
+    "plural": "doctors",
+    "evidence": "医生",
+    "sources": [
+      {
+        "word": "doctor",
+        "meaning": "n. 医生, 博士\nvt. 授以博士学位, 诊断, 修改\nvi. 行医",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-护士",
+    "chinese": "护士",
+    "english": "nurse",
+    "entryId": "nurse",
+    "policy": "count",
+    "plural": "nurses",
+    "evidence": "护士",
+    "sources": [
+      {
+        "word": "nurse",
+        "meaning": "n. 护士, 保姆, 奶妈\nvt. 看护, 照顾, 培养\nvi. 喂奶, 看护病人",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-厨师",
+    "chinese": "厨师",
+    "english": "cook",
+    "entryId": "cook",
+    "policy": "count",
+    "plural": "cooks",
+    "evidence": "厨师",
+    "sources": [
+      {
+        "word": "cook",
+        "meaning": "n. 厨子, 厨师\nvt. 烹调, 煮饭, 加热\nvi. 在煮着",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-母亲",
+    "chinese": "母亲",
+    "english": "mother",
+    "entryId": "mother",
+    "policy": "count",
+    "plural": "mothers",
+    "evidence": "母亲",
+    "sources": [
+      {
+        "word": "mother",
+        "meaning": "n. 母亲, 修女院长\nvt. 产生, 照看, 收养",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-父亲",
+    "chinese": "父亲",
+    "english": "father",
+    "entryId": "father",
+    "policy": "count",
+    "plural": "fathers",
+    "evidence": "父亲",
+    "sources": [
+      {
+        "word": "father",
+        "meaning": "n. 父亲, 祖先, 长辈, 神父, 创始者\nvt. 当...的父亲, 保护, 创作, 发明, 培养",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-孩子",
+    "chinese": "孩子",
+    "english": "child",
+    "entryId": "child",
+    "policy": "count",
+    "plural": "children",
+    "evidence": "孩子",
+    "sources": [
+      {
+        "word": "child",
+        "meaning": "n. 孩子, 产物, 追随者",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-婴儿",
+    "chinese": "婴儿",
+    "english": "baby",
+    "entryId": "baby",
+    "policy": "count",
+    "plural": "babies",
+    "evidence": "婴孩",
+    "sources": [
+      {
+        "word": "baby",
+        "meaning": "n. 婴孩",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-窗帘",
+    "chinese": "窗帘",
+    "english": "curtain",
+    "entryId": "curtain",
+    "policy": "count",
+    "plural": "curtains",
+    "evidence": "窗帘",
+    "sources": [
+      {
+        "word": "curtain",
+        "meaning": "n. 帐, 幕, 窗帘\nvt. 装帘子于, 遮蔽",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-窗户",
+    "chinese": "窗户",
+    "english": "window",
+    "entryId": "window",
+    "policy": "count",
+    "plural": "windows",
+    "evidence": "窗户",
+    "sources": [
+      {
+        "word": "window",
+        "meaning": "n. 窗户, 窗子, 窗口\nvt. 给...开窗",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-台阶",
+    "chinese": "台阶",
+    "english": "step",
+    "entryId": "step",
+    "policy": "count",
+    "plural": "steps",
+    "evidence": "踏级",
+    "sources": [
+      {
+        "word": "step",
+        "meaning": "n. 步骤, 步, 步幅, 脚步声, 踏级, 步伐, 短距离, 步态, 手段, 等级\nvt. 踏, 以步测量, 跨步, 使成阶梯状\nvi. 跨步, 轻快地走, 跳舞, 踩, 踏上, 行走",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-楼梯",
+    "chinese": "楼梯",
+    "english": "staircase",
+    "entryId": "staircase",
+    "policy": "count",
+    "plural": "staircases",
+    "evidence": "楼梯",
+    "sources": [
+      {
+        "word": "staircase",
+        "meaning": "n. 楼梯, 梯子, 楼梯部分",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-走廊",
+    "chinese": "走廊",
+    "english": "corridor",
+    "entryId": "corridor",
+    "policy": "count",
+    "plural": "corridors",
+    "evidence": "走廊",
+    "sources": [
+      {
+        "word": "corridor",
+        "meaning": "n. 走廊, 回廊, 人口密集地带",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-房间",
+    "chinese": "房间",
+    "english": "room",
+    "entryId": "room",
+    "policy": "count",
+    "plural": "rooms",
+    "evidence": "房间",
+    "sources": [
+      {
+        "word": "room",
+        "meaning": "n. 房间, 空位, 场所\nvi. 住宿, 居住\nvt. 留宿",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-厨房",
+    "chinese": "厨房",
+    "english": "kitchen",
+    "entryId": "kitchen",
+    "policy": "count",
+    "plural": "kitchens",
+    "evidence": "厨房",
+    "sources": [
+      {
+        "word": "kitchen",
+        "meaning": "n. 厨房, 全套炊具",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-卧室",
+    "chinese": "卧室",
+    "english": "bedroom",
+    "entryId": "bedroom",
+    "policy": "count",
+    "plural": "bedrooms",
+    "evidence": "卧室",
+    "sources": [
+      {
+        "word": "bedroom",
+        "meaning": "n. 卧室",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-客厅",
+    "chinese": "客厅",
+    "english": "living room",
+    "entryId": "living room",
+    "policy": "count",
+    "evidence": "客厅",
+    "sources": [
+      {
+        "word": "living room",
+        "meaning": "客厅, 起居室",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-庭院",
+    "chinese": "庭院",
+    "english": "courtyard",
+    "entryId": "courtyard",
+    "policy": "count",
+    "plural": "courtyards",
+    "evidence": "庭院",
+    "sources": [
+      {
+        "word": "courtyard",
+        "meaning": "n. 庭院, 天井",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-围墙",
+    "chinese": "围墙",
+    "english": "wall",
+    "entryId": "wall",
+    "policy": "count",
+    "plural": "walls",
+    "evidence": "墙壁",
+    "sources": [
+      {
+        "word": "wall",
+        "meaning": "n. 墙, 墙壁, 垣, 内壁, 分界物, 屏障\na. 墙的\nvt. 给...建墙, 禁闭, 用墙围住",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-木门",
+    "chinese": "木门",
+    "english": "wooden door",
+    "entryId": "wooden door",
+    "policy": "count",
+    "evidence": "木制;门",
+    "sources": [
+      {
+        "word": "wooden",
+        "meaning": "a. 木制的, 呆笨的, 木然的",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "door",
+        "meaning": "n. 门",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-钥匙",
+    "chinese": "钥匙",
+    "english": "key",
+    "entryId": "key",
+    "policy": "count",
+    "plural": "keys",
+    "evidence": "钥匙",
+    "sources": [
+      {
+        "word": "key",
+        "meaning": "n. 钥匙, 键, 解答, 关键, 要害, 基调, 线索, 答案, 暗礁\nvt. 调音, 锁上, 提供线索\nvi. 使用钥匙",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-锁孔",
+    "chinese": "锁孔",
+    "english": "keyhole",
+    "entryId": "keyhole",
+    "policy": "count",
+    "plural": "keyholes",
+    "evidence": "锁眼",
+    "sources": [
+      {
+        "word": "keyhole",
+        "meaning": "n. 键孔, 栓孔, 锁眼\na. 显示内情的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-镜子",
+    "chinese": "镜子",
+    "english": "mirror",
+    "entryId": "mirror",
+    "policy": "count",
+    "plural": "mirrors",
+    "evidence": "镜",
+    "sources": [
+      {
+        "word": "mirror",
+        "meaning": "n. 镜子, 写真, 典范\nvt. 反映, 映出",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-照片",
+    "chinese": "照片",
+    "english": "photo",
+    "entryId": "photo",
+    "policy": "count",
+    "plural": "photos",
+    "evidence": "照片",
+    "sources": [
+      {
+        "word": "photo",
+        "meaning": "n. 相片, 照片, 逼真的描绘\nv. 照相\na. 照相的, 摄影用的, 详细记录的, 逼真的, 酷似的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-相机",
+    "chinese": "相机",
+    "english": "camera",
+    "entryId": "camera",
+    "policy": "count",
+    "plural": "cameras",
+    "evidence": "照相机",
+    "sources": [
+      {
+        "word": "camera",
+        "meaning": "n. 照相机, 摄影机, 密谈室, 暗箱",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-手机",
+    "chinese": "手机",
+    "english": "mobile phone",
+    "entryId": "mobile phone",
+    "policy": "count",
+    "evidence": "移动;电话",
+    "sources": [
+      {
+        "word": "mobile",
+        "meaning": "a. 移动的, 易变的, 机动的\nn. 活动物体",
+        "source": "ECDICT-MIT"
+      },
+      {
+        "word": "phone",
+        "meaning": "n. 电话, 受话器, 耳机\nvt. 打电话给\nvi. 打电话",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": true
+  },
+  {
+    "id": "curated-时钟",
+    "chinese": "时钟",
+    "english": "clock",
+    "entryId": "clock",
+    "policy": "count",
+    "plural": "clocks",
+    "evidence": "时钟",
+    "sources": [
+      {
+        "word": "clock",
+        "meaning": "n. 时钟, 计时器, (袜子上的)绣花边花\nvt. 绣花样, 记时, 记录\nvi. 记录时间",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-手表",
+    "chinese": "手表",
+    "english": "watch",
+    "entryId": "watch",
+    "policy": "count",
+    "plural": "watches",
+    "evidence": "手表",
+    "sources": [
+      {
+        "word": "watch",
+        "meaning": "n. 观察, 手表, 看守, 守护, 监视, 值班人\nvt. 看, 注视, 照顾, 看守, 守护, 监视\nvi. 观看, 注视, 守侯",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-椅子",
+    "chinese": "椅子",
+    "english": "chair",
+    "entryId": "chair",
+    "policy": "count",
+    "plural": "chairs",
+    "evidence": "椅子",
+    "sources": [
+      {
+        "word": "chair",
+        "meaning": "n. 椅子, 显要的席位, 主席\nvt. 使入座, 使就任要职",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-桌子",
+    "chinese": "桌子",
+    "english": "table",
+    "entryId": "table",
+    "policy": "count",
+    "plural": "tables",
+    "evidence": "桌子",
+    "sources": [
+      {
+        "word": "table",
+        "meaning": "n. 桌子, 餐桌, 工作台, 铭文, 表格, 表, 高原, 平地层\nvt. 搁置, 嵌合, 制表, 把...列入议事日程",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-书桌",
+    "chinese": "书桌",
+    "english": "desk",
+    "entryId": "desk",
+    "policy": "count",
+    "plural": "desks",
+    "evidence": "书桌",
+    "sources": [
+      {
+        "word": "desk",
+        "meaning": "n. 书桌, 办公桌, 工作台",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-书架",
+    "chinese": "书架",
+    "english": "bookshelf",
+    "entryId": "bookshelf",
+    "policy": "count",
+    "evidence": "书架",
+    "sources": [
+      {
+        "word": "bookshelf",
+        "meaning": "n. 书架",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-书包",
+    "chinese": "书包",
+    "english": "schoolbag",
+    "entryId": "schoolbag",
+    "policy": "count",
+    "plural": "schoolbags",
+    "evidence": "书包",
+    "sources": [
+      {
+        "word": "schoolbag",
+        "meaning": "n. 书包",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-铅笔",
+    "chinese": "铅笔",
+    "english": "pencil",
+    "entryId": "pencil",
+    "policy": "count",
+    "plural": "pencils",
+    "evidence": "铅笔",
+    "sources": [
+      {
+        "word": "pencil",
+        "meaning": "n. 铅笔, 色笔, 眉笔, 画笔, 光线束\nvt. 用铅笔写或涂, 草拟",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-钢笔",
+    "chinese": "钢笔",
+    "english": "pen",
+    "entryId": "pen",
+    "policy": "count",
+    "plural": "pens",
+    "evidence": "钢笔",
+    "sources": [
+      {
+        "word": "pen",
+        "meaning": "n. 钢笔, 笔, 笔调, 笔杆子, 作家, 围栏, 栅栏, 禽畜\nvt. 写, 关入栏中, 囚禁\nvi. 动笔, 写作",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-笔记本",
+    "chinese": "笔记本",
+    "english": "notebook",
+    "entryId": "notebook",
+    "policy": "count",
+    "plural": "notebooks",
+    "evidence": "笔记本",
+    "sources": [
+      {
+        "word": "notebook",
+        "meaning": "n. 笔记本, 手册, 期票簿",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-日记",
+    "chinese": "日记",
+    "english": "diary",
+    "entryId": "diary",
+    "policy": "count",
+    "plural": "diaries",
+    "evidence": "日记",
+    "sources": [
+      {
+        "word": "diary",
+        "meaning": "n. 日记",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-故事",
+    "chinese": "故事",
+    "english": "story",
+    "entryId": "story",
+    "policy": "count",
+    "plural": "stories",
+    "evidence": "故事",
+    "sources": [
+      {
+        "word": "story",
+        "meaning": "n. 故事, 小说, 传奇, 描述, 阅历, 经历, 层",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-报纸",
+    "chinese": "报纸",
+    "english": "newspaper",
+    "entryId": "newspaper",
+    "policy": "count",
+    "plural": "newspapers",
+    "evidence": "报纸",
+    "sources": [
+      {
+        "word": "newspaper",
+        "meaning": "n. 报纸",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-消息",
+    "chinese": "消息",
+    "english": "news",
+    "entryId": "news",
+    "policy": "noun",
+    "evidence": "消息",
+    "sources": [
+      {
+        "word": "news",
+        "meaning": "n. 新闻, 消息, 报导",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-礼物",
+    "chinese": "礼物",
+    "english": "gift",
+    "entryId": "gift",
+    "policy": "count",
+    "plural": "gifts",
+    "evidence": "礼物",
+    "sources": [
+      {
+        "word": "gift",
+        "meaning": "n. 礼物, 赠予, 天才\nvt. 赋予",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-行李",
+    "chinese": "行李",
+    "english": "luggage",
+    "entryId": "luggage",
+    "policy": "noun",
+    "evidence": "行李",
+    "sources": [
+      {
+        "word": "luggage",
+        "meaning": "n. 行李, 皮箱",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-毛巾",
+    "chinese": "毛巾",
+    "english": "towel",
+    "entryId": "towel",
+    "policy": "count",
+    "plural": "towels",
+    "evidence": "毛巾",
+    "sources": [
+      {
+        "word": "towel",
+        "meaning": "n. 手巾, 毛巾\nv. 擦干身子",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-衣服",
+    "chinese": "衣服",
+    "english": "clothes",
+    "entryId": "clothes",
+    "policy": "noun",
+    "evidence": "衣服",
+    "sources": [
+      {
+        "word": "clothes",
+        "meaning": "n. 衣服",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-衬衫",
+    "chinese": "衬衫",
+    "english": "shirt",
+    "entryId": "shirt",
+    "policy": "count",
+    "plural": "shirts",
+    "evidence": "衬衫",
+    "sources": [
+      {
+        "word": "shirt",
+        "meaning": "n. 衬衫, 内衣, 汗衫",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-外套",
+    "chinese": "外套",
+    "english": "coat",
+    "entryId": "coat",
+    "policy": "count",
+    "plural": "coats",
+    "evidence": "外套",
+    "sources": [
+      {
+        "word": "coat",
+        "meaning": "n. 外套\nvt. 外面覆盖, 给...穿外套",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-围巾",
+    "chinese": "围巾",
+    "english": "scarf",
+    "entryId": "scarf",
+    "policy": "count",
+    "plural": "scarves",
+    "evidence": "围巾",
+    "sources": [
+      {
+        "word": "scarf",
+        "meaning": "n. 围巾, 头巾, 领带, 领巾, 嵌接\nvt. 用围巾围, 嵌接",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-手套",
+    "chinese": "手套",
+    "english": "glove",
+    "entryId": "glove",
+    "policy": "count",
+    "plural": "gloves",
+    "evidence": "手套",
+    "sources": [
+      {
+        "word": "glove",
+        "meaning": "n. 手套\nvt. 给...戴手套",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-帽子",
+    "chinese": "帽子",
+    "english": "hat",
+    "entryId": "hat",
+    "policy": "count",
+    "plural": "hats",
+    "evidence": "帽子",
+    "sources": [
+      {
+        "word": "hat",
+        "meaning": "n. 帽子\nvt. 给...戴帽子",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-靴子",
+    "chinese": "靴子",
+    "english": "boot",
+    "entryId": "boot",
+    "policy": "count",
+    "plural": "boots",
+    "evidence": "靴",
+    "sources": [
+      {
+        "word": "boot",
+        "meaning": "n. 长靴, 踢, 解雇, 效用\nvt. 使穿靴, 踢, 解雇, 有用",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-面包",
+    "chinese": "面包",
+    "english": "bread",
+    "entryId": "bread",
+    "policy": "noun",
+    "evidence": "面包",
+    "sources": [
+      {
+        "word": "bread",
+        "meaning": "n. 面包, 生计, 食物\nvt. 裹以面包屑",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-牛奶",
+    "chinese": "牛奶",
+    "english": "milk",
+    "entryId": "milk",
+    "policy": "noun",
+    "evidence": "奶",
+    "sources": [
+      {
+        "word": "milk",
+        "meaning": "n. 奶, 乳状物\nvt. 挤乳, 榨取\nvi. 产乳",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-咖啡",
+    "chinese": "咖啡",
+    "english": "coffee",
+    "entryId": "coffee",
+    "policy": "noun",
+    "evidence": "咖啡",
+    "sources": [
+      {
+        "word": "coffee",
+        "meaning": "n. 咖啡, 咖啡色",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-茶叶",
+    "chinese": "茶叶",
+    "english": "tea",
+    "entryId": "tea",
+    "policy": "noun",
+    "evidence": "茶叶",
+    "sources": [
+      {
+        "word": "tea",
+        "meaning": "n. 茶, 茶叶",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-饼干",
+    "chinese": "饼干",
+    "english": "biscuit",
+    "entryId": "biscuit",
+    "policy": "count",
+    "plural": "biscuits",
+    "evidence": "饼干",
+    "sources": [
+      {
+        "word": "biscuit",
+        "meaning": "n. 饼干",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-苹果",
+    "chinese": "苹果",
+    "english": "apple",
+    "entryId": "apple",
+    "policy": "count",
+    "plural": "apples",
+    "evidence": "苹果",
+    "sources": [
+      {
+        "word": "apple",
+        "meaning": "n. 苹果, 家伙",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-葡萄",
+    "chinese": "葡萄",
+    "english": "grape",
+    "entryId": "grape",
+    "policy": "count",
+    "plural": "grapes",
+    "evidence": "葡萄",
+    "sources": [
+      {
+        "word": "grape",
+        "meaning": "n. 葡萄, 葡萄树",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-橙子",
+    "chinese": "橙子",
+    "english": "orange",
+    "entryId": "orange",
+    "policy": "count",
+    "plural": "oranges",
+    "evidence": "柑橘",
+    "sources": [
+      {
+        "word": "orange",
+        "meaning": "n. 柑橘, 桔子, 橘色\na. 橘色的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-草莓",
+    "chinese": "草莓",
+    "english": "strawberry",
+    "entryId": "strawberry",
+    "policy": "count",
+    "plural": "strawberries",
+    "evidence": "草莓",
+    "sources": [
+      {
+        "word": "strawberry",
+        "meaning": "n. 草莓",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-巧克力",
+    "chinese": "巧克力",
+    "english": "chocolate",
+    "entryId": "chocolate",
+    "policy": "noun",
+    "evidence": "巧克力",
+    "sources": [
+      {
+        "word": "chocolate",
+        "meaning": "n. 巧克力\na. 巧克力制的",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-冰淇淋",
+    "chinese": "冰淇淋",
+    "english": "ice cream",
+    "entryId": "ice cream",
+    "policy": "noun",
+    "evidence": "冰淇淋",
+    "sources": [
+      {
+        "word": "ice cream",
+        "meaning": "冰淇淋\n[化] 冰淇淋",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-蜂蜜",
+    "chinese": "蜂蜜",
+    "english": "honey",
+    "entryId": "honey",
+    "policy": "noun",
+    "evidence": "蜂蜜",
+    "sources": [
+      {
+        "word": "honey",
+        "meaning": "n. 蜂蜜, 甜蜜, 爱人\na. 蜂蜜似的, 甜蜜的, 甘美的\nvt. 加蜜使甜, 对...说甜言蜜语\nvi. 说甜言蜜语, 奉承",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-糖果",
+    "chinese": "糖果",
+    "english": "candy",
+    "entryId": "candy",
+    "policy": "noun",
+    "evidence": "糖果",
+    "sources": [
+      {
+        "word": "candy",
+        "meaning": "n. 糖果, 冰糖\nvt. 用糖煮, 使结晶为砂糖\nvi. 结晶为砂糖",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-电影院",
+    "chinese": "电影院",
+    "english": "cinema",
+    "entryId": "cinema",
+    "policy": "count",
+    "plural": "cinemas",
+    "evidence": "电影院",
+    "sources": [
+      {
+        "word": "cinema",
+        "meaning": "n. 电影院, 电影",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-车站",
+    "chinese": "车站",
+    "english": "station",
+    "entryId": "station",
+    "policy": "count",
+    "plural": "stations",
+    "evidence": "车站",
+    "sources": [
+      {
+        "word": "station",
+        "meaning": "n. 车站, 站, 局, 驻地, 位置, 身分, 地位\nvt. 安置, 配置, 驻扎",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-火车",
+    "chinese": "火车",
+    "english": "train",
+    "entryId": "train",
+    "policy": "count",
+    "plural": "trains",
+    "evidence": "火车",
+    "sources": [
+      {
+        "word": "train",
+        "meaning": "n. 火车, 列车, 行列, 长队, 一连串的后果, 顺序\nvt. 训练, 教育, 对准\nvi. 受训练, 锻炼",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-汽车",
+    "chinese": "汽车",
+    "english": "car",
+    "entryId": "car",
+    "policy": "count",
+    "plural": "cars",
+    "evidence": "汽车",
+    "sources": [
+      {
+        "word": "car",
+        "meaning": "n. 汽车, 客车",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-自行车",
+    "chinese": "自行车",
+    "english": "bicycle",
+    "entryId": "bicycle",
+    "policy": "count",
+    "plural": "bicycles",
+    "evidence": "自行车",
+    "sources": [
+      {
+        "word": "bicycle",
+        "meaning": "n. 自行车",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-三轮车",
+    "chinese": "三轮车",
+    "english": "tricycle",
+    "entryId": "tricycle",
+    "policy": "count",
+    "plural": "tricycles",
+    "evidence": "三轮车",
+    "sources": [
+      {
+        "word": "tricycle",
+        "meaning": "n. 三轮车",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-公交车",
+    "chinese": "公交车",
+    "english": "bus",
+    "entryId": "bus",
+    "policy": "count",
+    "plural": "buses",
+    "evidence": "公共汽车",
+    "sources": [
+      {
+        "word": "bus",
+        "meaning": "n. 公共汽车",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-大巴",
+    "chinese": "大巴",
+    "english": "bus",
+    "entryId": "bus",
+    "policy": "count",
+    "plural": "buses",
+    "evidence": "公共汽车",
+    "sources": [
+      {
+        "word": "bus",
+        "meaning": "n. 公共汽车",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-医院",
+    "chinese": "医院",
+    "english": "hospital",
+    "entryId": "hospital",
+    "policy": "count",
+    "plural": "hospitals",
+    "evidence": "医院",
+    "sources": [
+      {
+        "word": "hospital",
+        "meaning": "n. 医院",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-学校",
+    "chinese": "学校",
+    "english": "school",
+    "entryId": "school",
+    "policy": "count",
+    "plural": "schools",
+    "evidence": "学校",
+    "sources": [
+      {
+        "word": "school",
+        "meaning": "n. 学校, 鱼群, 门派, 学派\nvt. 教育, 训练, 培养\nvi. 成群地游",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-教室",
+    "chinese": "教室",
+    "english": "classroom",
+    "entryId": "classroom",
+    "policy": "count",
+    "plural": "classrooms",
+    "evidence": "教室",
+    "sources": [
+      {
+        "word": "classroom",
+        "meaning": "n. 教室",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-公园",
+    "chinese": "公园",
+    "english": "park",
+    "entryId": "park",
+    "policy": "count",
+    "plural": "parks",
+    "evidence": "公园",
+    "sources": [
+      {
+        "word": "park",
+        "meaning": "n. 公园, 停车处\nvt. 停车, 置于\nvi. 停车",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-广场",
+    "chinese": "广场",
+    "english": "square",
+    "entryId": "square",
+    "policy": "count",
+    "plural": "squares",
+    "evidence": "广场",
+    "sources": [
+      {
+        "word": "square",
+        "meaning": "n. 正方形, 街区, 广场, 平方, 直角尺\na. 正方形的, 正直的, 公正的, 平方的, 方正的, 结清的\nadv. 成直角地, 对准地\nvi. 一致, 符合, 结清\nvt. 使成方形, 使平方自乘, 调正, 结清, 使一致",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-市场",
+    "chinese": "市场",
+    "english": "market",
+    "entryId": "market",
+    "policy": "count",
+    "plural": "markets",
+    "evidence": "市场",
+    "sources": [
+      {
+        "word": "market",
+        "meaning": "n. 市场, 交易, 集市, 推销地区, 行情, 市面, 销路\nvt. 在市场上交易, 使上市, 销售\nvi. 在市场上买卖",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-商店",
+    "chinese": "商店",
+    "english": "shop",
+    "entryId": "shop",
+    "policy": "count",
+    "plural": "shops",
+    "evidence": "商店",
+    "sources": [
+      {
+        "word": "shop",
+        "meaning": "n. 商店, 工厂, 车间\nvi. 购物, 到处寻找\nvt. 选购",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-超市",
+    "chinese": "超市",
+    "english": "supermarket",
+    "entryId": "supermarket",
+    "policy": "count",
+    "plural": "supermarkets",
+    "evidence": "超级市场",
+    "sources": [
+      {
+        "word": "supermarket",
+        "meaning": "n. 超级市场",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-图书馆",
+    "chinese": "图书馆",
+    "english": "library",
+    "entryId": "library",
+    "policy": "count",
+    "plural": "libraries",
+    "evidence": "图书馆",
+    "sources": [
+      {
+        "word": "library",
+        "meaning": "n. 图书馆, 藏书, 库",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-放弃",
+    "chinese": "放弃",
+    "english": "give up",
+    "entryId": "give up",
+    "policy": "verb",
+    "evidence": "放弃",
+    "sources": [
+      {
+        "word": "give up",
+        "meaning": "放弃, 停止, 献出, 抛弃, 认输, 把...送交",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-想起",
+    "chinese": "想起",
+    "english": "think of",
+    "entryId": "think of",
+    "policy": "verb",
+    "evidence": "想起",
+    "sources": [
+      {
+        "word": "think of",
+        "meaning": "想到；想起；考虑；认为；关心；记起；想像；有...的看法",
+        "source": "ecdict; english-phrases; cc-cedict"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-考虑",
+    "chinese": "考虑",
+    "english": "think about",
+    "entryId": "think about",
+    "policy": "verb",
+    "evidence": "考虑",
+    "sources": [
+      {
+        "word": "think about",
+        "meaning": "考虑, 回想",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-弄清楚",
+    "chinese": "弄清楚",
+    "english": "figure out",
+    "entryId": "figure out",
+    "policy": "verb",
+    "evidence": "明白",
+    "sources": [
+      {
+        "word": "figure out",
+        "meaning": "合计为, 计算出, 明白",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-帮忙",
+    "chinese": "帮忙",
+    "english": "give a hand",
+    "entryId": "give a hand",
+    "policy": "verb",
+    "evidence": "帮助",
+    "sources": [
+      {
+        "word": "give a hand",
+        "meaning": "帮助",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-依靠",
+    "chinese": "依靠",
+    "english": "rely on",
+    "entryId": "rely on",
+    "policy": "verb",
+    "evidence": "依靠",
+    "sources": [
+      {
+        "word": "rely on",
+        "meaning": "依赖, 依靠",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-期待",
+    "chinese": "期待",
+    "english": "look forward to",
+    "entryId": "look forward to",
+    "policy": "verb",
+    "evidence": "盼望",
+    "sources": [
+      {
+        "word": "look forward to",
+        "meaning": "期望, 盼望; 瞩望; 属望; 企",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-寻找",
+    "chinese": "寻找",
+    "english": "look for",
+    "entryId": "look for",
+    "policy": "verb",
+    "evidence": "寻找",
+    "sources": [
+      {
+        "word": "look for",
+        "meaning": "寻找, 期待",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-照顾",
+    "chinese": "照顾",
+    "english": "take care of",
+    "entryId": "take care of",
+    "policy": "verb",
+    "evidence": "照顾",
+    "sources": [
+      {
+        "word": "take care of",
+        "meaning": "照顾",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-注意到",
+    "chinese": "注意到",
+    "english": "take notice of",
+    "entryId": "take notice of",
+    "policy": "verb",
+    "evidence": "注意",
+    "sources": [
+      {
+        "word": "take notice of",
+        "meaning": "注意到; 在意; 睬; 理睬",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-点头",
+    "chinese": "点头",
+    "english": "nod",
+    "entryId": "nod",
+    "policy": "verb",
+    "evidence": "点头",
+    "sources": [
+      {
+        "word": "nod",
+        "meaning": "n. 点头, 打盹, 晃动\nvi. 点头, 打盹\nvt. 点头表示, 点(头)",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-微笑",
+    "chinese": "微笑",
+    "english": "smile",
+    "entryId": "smile",
+    "policy": "verb",
+    "evidence": "微笑",
+    "sources": [
+      {
+        "word": "smile",
+        "meaning": "n. 微笑, 喜色, 笑容\nvi. 微笑, 觉得好笑\nvt. 微笑着表示",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-低声说",
+    "chinese": "低声说",
+    "english": "whisper",
+    "entryId": "whisper",
+    "policy": "verb",
+    "evidence": "低声",
+    "sources": [
+      {
+        "word": "whisper",
+        "meaning": "n. 耳语, 密谈, 谣传, 沙沙声\nvi. 耳语, 密谈, 沙沙地响\nvt. 低声说",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-等待",
+    "chinese": "等待",
+    "english": "wait",
+    "entryId": "wait",
+    "policy": "verb",
+    "evidence": "等待",
+    "sources": [
+      {
+        "word": "wait",
+        "meaning": "n. 等待, 等候\nvt. 等候, 期待, 延缓, 伺候, 推迟\nvi. 等, 等候, 耽搁, 伺候用餐",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-倾听",
+    "chinese": "倾听",
+    "english": "listen",
+    "entryId": "listen",
+    "policy": "verb",
+    "evidence": "听",
+    "sources": [
+      {
+        "word": "listen",
+        "meaning": "vi. 听, 倾听, 听从\nn. 听, 倾听",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-记住",
+    "chinese": "记住",
+    "english": "remember",
+    "entryId": "remember",
+    "policy": "verb",
+    "evidence": "记住",
+    "sources": [
+      {
+        "word": "remember",
+        "meaning": "vt. 记得, 回忆起, 记住, 铭记, 纪念\nvi. 记得",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-忘记",
+    "chinese": "忘记",
+    "english": "forget",
+    "entryId": "forget",
+    "policy": "verb",
+    "evidence": "忘记",
+    "sources": [
+      {
+        "word": "forget",
+        "meaning": "vt. 忘记, 忽略, 忘\nvi. 忘记",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-相信",
+    "chinese": "相信",
+    "english": "believe",
+    "entryId": "believe",
+    "policy": "verb",
+    "evidence": "相信",
+    "sources": [
+      {
+        "word": "believe",
+        "meaning": "v. 相信",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-原谅",
+    "chinese": "原谅",
+    "english": "forgive",
+    "entryId": "forgive",
+    "policy": "verb",
+    "evidence": "原谅",
+    "sources": [
+      {
+        "word": "forgive",
+        "meaning": "vt. 原谅, 宽恕, 免除",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-犹豫",
+    "chinese": "犹豫",
+    "english": "hesitate",
+    "entryId": "hesitate",
+    "policy": "verb",
+    "evidence": "犹豫",
+    "sources": [
+      {
+        "word": "hesitate",
+        "meaning": "vi. 犹豫, 迟疑, 踌躇, 支吾, 停顿",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-犹豫不决",
+    "chinese": "犹豫不决",
+    "english": "hesitate",
+    "entryId": "hesitate",
+    "policy": "verb",
+    "evidence": "犹豫",
+    "sources": [
+      {
+        "word": "hesitate",
+        "meaning": "vi. 犹豫, 迟疑, 踌躇, 支吾, 停顿",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-逃跑",
+    "chinese": "逃跑",
+    "english": "run away",
+    "entryId": "run away",
+    "policy": "verb",
+    "evidence": "潜逃",
+    "sources": [
+      {
+        "word": "run away",
+        "meaning": "潜逃",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-回家",
+    "chinese": "回家",
+    "english": "go home",
+    "entryId": "go home",
+    "policy": "verb",
+    "evidence": "回家",
+    "sources": [
+      {
+        "word": "go home",
+        "meaning": "回家",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-散步",
+    "chinese": "散步",
+    "english": "take a walk",
+    "entryId": "take a walk",
+    "policy": "verb",
+    "evidence": "散步",
+    "sources": [
+      {
+        "word": "take a walk",
+        "meaning": "散步",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-醒来",
+    "chinese": "醒来",
+    "english": "wake up",
+    "entryId": "wake up",
+    "policy": "verb",
+    "evidence": "醒来",
+    "sources": [
+      {
+        "word": "wake up",
+        "meaning": "醒来",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-坐下",
+    "chinese": "坐下",
+    "english": "sit down",
+    "entryId": "sit down",
+    "policy": "verb",
+    "evidence": "坐下",
+    "sources": [
+      {
+        "word": "sit down",
+        "meaning": "坐下, 占据, 参加静坐罢工(或示威)",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-站起来",
+    "chinese": "站起来",
+    "english": "stand up",
+    "entryId": "stand up",
+    "policy": "verb",
+    "evidence": "站起来",
+    "sources": [
+      {
+        "word": "stand up",
+        "meaning": "站起来, 竖立, 站得住脚, 经得起",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-转过身",
+    "chinese": "转过身",
+    "english": "turn around",
+    "entryId": "turn around",
+    "policy": "verb",
+    "evidence": "转身",
+    "sources": [
+      {
+        "word": "turn around",
+        "meaning": "（使）转身; （使）好转; 改变意见; 使变得完全不同",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-毫不犹豫地",
+    "chinese": "毫不犹豫地",
+    "english": "without hesitation",
+    "entryId": "without hesitation",
+    "policy": "adverb",
+    "evidence": "毫不犹豫",
+    "sources": [
+      {
+        "word": "without hesitation",
+        "meaning": "毫不犹豫；毅然；毅然决然",
+        "source": "cc-cedict"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-缓缓地",
+    "chinese": "缓缓地",
+    "english": "slowly",
+    "entryId": "slowly",
+    "policy": "adverb",
+    "evidence": "慢",
+    "sources": [
+      {
+        "word": "slowly",
+        "meaning": "adv. 慢慢地, 迟缓地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-慢慢地",
+    "chinese": "慢慢地",
+    "english": "slowly",
+    "entryId": "slowly",
+    "policy": "adverb",
+    "evidence": "慢",
+    "sources": [
+      {
+        "word": "slowly",
+        "meaning": "adv. 慢慢地, 迟缓地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-轻轻地",
+    "chinese": "轻轻地",
+    "english": "gently",
+    "entryId": "gently",
+    "policy": "adverb",
+    "evidence": "轻",
+    "sources": [
+      {
+        "word": "gently",
+        "meaning": "adv. 温和地, 温柔地, 轻轻地, 逐渐地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-悄悄地",
+    "chinese": "悄悄地",
+    "english": "quietly",
+    "entryId": "quietly",
+    "policy": "adverb",
+    "evidence": "安静地",
+    "sources": [
+      {
+        "word": "quietly",
+        "meaning": "adv. 安静地, 沉着地, 秘密地",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-浅蓝色的",
+    "chinese": "浅蓝色的",
+    "english": "light blue",
+    "entryId": "light blue",
+    "policy": "adjective",
+    "evidence": "淡蓝",
+    "sources": [
+      {
+        "word": "light blue",
+        "meaning": "[医] 淡蓝",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-忽然之间",
+    "chinese": "忽然之间",
+    "english": "suddenly",
+    "entryId": "suddenly",
+    "policy": "adverb",
+    "evidence": "忽然",
+    "sources": [
+      {
+        "word": "suddenly",
+        "meaning": "adv. 突然, 意外, 忽然, 迅速, 即席作成, 即刻, 急速",
+        "source": "ECDICT-MIT"
+      }
+    ],
+    "composition": false
+  },
+  {
+    "id": "curated-面对面地",
+    "chinese": "面对面地",
+    "english": "face to face",
+    "entryId": "face to face",
+    "policy": "adverb",
+    "evidence": "面对面",
+    "sources": [
+      {
+        "word": "face to face",
+        "meaning": "面对面",
+        "source": "ecdict; english-phrases"
+      }
+    ],
+    "composition": false
+  }
+]

@@ -1,0 +1,37 @@
+词境阅读 · 查询短语数据来源与许可（2026-10-16）
+
+本文件适用于 phrases.json 查询短语数据；小说自动替换规则独立，不由该数据生成。
+
+1. 英文短语候选名单及学习阶段标签
+   作者：2ndLA and contributors
+   项目：https://github.com/2ndLA/english-phrases
+   固定版本：a03f97177ec0db8986085fb3edc1e64a4660e46c
+   文件：lists/junior.txt、senior.txt、cet4.txt、cet6.txt、npee.txt
+   许可：Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+   许可链接：https://creativecommons.org/licenses/by-sa/4.0/
+   本地完整许可：english-phrases-CC-BY-SA-4.0.txt
+   修改：筛选、规范化、去重、重分类并与合法释义对照。阶段名单为社区整理，不是官方大纲认证。
+
+2. 中文释义及部分动词词形
+   ECDICT，Copyright (c) 2025 Linwei
+   https://github.com/skywind3000/ECDICT
+   固定版本：bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b，ecdict.csv
+   MIT License，本地完整许可：ECDICT-MIT.txt
+   修改：筛选通用释义、分解展示义项、合并重复释义、使用源词形字段建立查询别名。
+
+3. 少量多义补充和 without hesitation 的释义核对
+   CC-CEDICT contributors；发布者 MDBG
+   https://www.mdbg.net/chinese/dictionary?page=cedict
+   数据日期：2026-10-14T21:50:50Z
+   原始项目引用：CEDICT - Copyright (C) 1997, 1998 Paul Andrew Denisowski
+   当前下载数据明确许可：CC BY-SA 4.0
+   https://creativecommons.org/licenses/by-sa/4.0/
+   修改：只摘取并核对“想到、想起、毫不犹豫、毅然、毅然决然”的对应定义。
+   think of 的“认为”归并自 ECDICT 的“有...的看法”；原始义项仍保留。
+
+经过筛选、组合、补充元数据的 phrases.json 查询短语数据集合继续以 CC BY-SA 4.0 提供；
+保留 ECDICT 的 MIT 通知。该数据许可不宣称更改应用程序代码的许可。
+没有将未经许可的商业词典释义加入本数据。
+来源不提供准确性保证；修改后的数据也按原样提供，无担保，不表示上游认可本产品。
+
+后续小说显示替换数据的独立编辑和改编声明：REPLACEMENT-NOTICE.txt。

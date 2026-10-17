@@ -1,0 +1,37 @@
+{
+  "rules": 341,
+  "singleWordTargets": 286,
+  "phraseTargets": 55,
+  "queryDictionaryUnchanged": true,
+  "previousCandidates": 30,
+  "previousExecutableTerms": 11,
+  "bytes": 37655,
+  "gzipBytes": 6937,
+  "sha256": "93ecfc70f949f6366fe7ede89273c455d429baccbf5dc8681bae82afaf887f4f",
+  "seedSha256": "5c8625e8552cafc86fad0db1d4420906e58c3fb42ea7e1858de931865401a4ea",
+  "ecdictSha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+  "ecdictCommit": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+  "rejected": [],
+  "deferred": [
+    {
+      "chinese": "充满恐惧",
+      "english": "filled with fear",
+      "reason": "现有词库没有完整短语证据，暂不为追求密度拼接需系动词或分词语法的表达"
+    },
+    {
+      "chinese": "月牙",
+      "english": "crescent",
+      "reason": "固定源无独立完整条目"
+    },
+    {
+      "chinese": "外公",
+      "english": "grandfather",
+      "reason": "当前条目只列祖父，暂不扩展亲属义项"
+    },
+    {
+      "chinese": "摇头",
+      "english": "shake one’s head",
+      "reason": "需要物主代词及动词变化，留待单独验证"
+    }
+  ]
+}

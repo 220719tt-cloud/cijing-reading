@@ -1,0 +1,390 @@
+{
+  "format": "cijing-translations",
+  "schemaVersion": 1,
+  "book": {
+    "sourceHash": "sha256:50e02a5aba6935f386e3f486f0b40d39f10a7e66f7bd1d6dbb58a7e938dddbfa",
+    "title": "雨后的邮局 · EPUB 验证",
+    "chapterCount": 2
+  },
+  "chapters": [
+    {
+      "schemaVersion": 1,
+      "chapterId": "epub-2-0",
+      "chapterIndex": 0,
+      "chapterTitle": "第一章 雨夜邮局",
+      "identity": {
+        "sourceHash": "sha256:04377088f3e67e7046b0ea410bbc5d7ca097387034560e7c8798227ec37892f9",
+        "sourceLanguage": "zh",
+        "targetLanguage": "en",
+        "provider": "original-story-test-fixture",
+        "modelVersion": "no-ai-model",
+        "configurationHash": "",
+        "contextHash": ""
+      },
+      "status": "complete",
+      "segments": [
+        {
+          "id": "paragraph-0",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 0,
+            "start": 0,
+            "end": 8
+          },
+          "sourceText": "第一章 雨夜邮局",
+          "targetText": "Chapter One: The Post Office on a Rainy Night"
+        },
+        {
+          "id": "paragraph-1",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 1,
+            "start": 0,
+            "end": 42
+          },
+          "sourceText": "这是一篇原创测试小说（原文括号必须保留）。邮局里的神秘的旧屋十分安静。\n雨已经停了。",
+          "targetText": "This is an original test story (the parentheses in the original must be preserved). The mysterious old house in the post office was very quiet. The rain had stopped."
+        },
+        {
+          "id": "paragraph-2",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 2,
+            "start": 0,
+            "end": 83
+          },
+          "sourceText": "邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-4",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 4,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "1。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "1. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-5",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 5,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "2。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "2. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-6",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 6,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "3。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "3. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-7",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 7,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "4。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "4. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-8",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 8,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "5。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "5. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-9",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 9,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "6。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "6. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-10",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 10,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "7。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "7. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-11",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 11,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "8。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "8. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-12",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 12,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "9。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "9. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-13",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 13,
+            "start": 0,
+            "end": 86
+          },
+          "sourceText": "10。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "10. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-14",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 14,
+            "start": 0,
+            "end": 86
+          },
+          "sourceText": "11。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "11. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-15",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 15,
+            "start": 0,
+            "end": 86
+          },
+          "sourceText": "12。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "12. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-16",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 16,
+            "start": 0,
+            "end": 5
+          },
+          "sourceText": "雨中的约定",
+          "targetText": "A Promise in the Rain"
+        },
+        {
+          "id": "paragraph-17",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 17,
+            "start": 0,
+            "end": 28
+          },
+          "sourceText": "第二节的准确锚点：她想起那封信，决定毫不犹豫地走向柜台。",
+          "targetText": "The exact anchor for the second section: She remembered the letter and decided to walk to the counter without hesitation."
+        },
+        {
+          "id": "paragraph-19",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 19,
+            "start": 0,
+            "end": 14
+          },
+          "sourceText": "本章结尾：她终于找到了地址。",
+          "targetText": "The end of this chapter: She finally found the address."
+        },
+        {
+          "id": "paragraph-20",
+          "chapterId": "epub-2-0",
+          "source": {
+            "paragraph": 20,
+            "start": 0,
+            "end": 7
+          },
+          "sourceText": "安全正文保留。",
+          "targetText": "The safe body text is preserved."
+        }
+      ],
+      "updatedAt": "2026-10-16T14:57:40.951Z"
+    },
+    {
+      "schemaVersion": 1,
+      "chapterId": "epub-4-0",
+      "chapterIndex": 1,
+      "chapterTitle": "第二章 清晨来信",
+      "identity": {
+        "sourceHash": "sha256:e308a75fde5896fae8ce8c69e5180b91c84f2ee11a879f1c94e7581be461b498",
+        "sourceLanguage": "zh",
+        "targetLanguage": "en",
+        "provider": "original-story-test-fixture",
+        "modelVersion": "no-ai-model",
+        "configurationHash": "",
+        "contextHash": ""
+      },
+      "status": "complete",
+      "segments": [
+        {
+          "id": "paragraph-0",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 0,
+            "start": 0,
+            "end": 8
+          },
+          "sourceText": "第二章 清晨来信",
+          "targetText": "Chapter Two: A Letter in the Morning"
+        },
+        {
+          "id": "paragraph-1",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 1,
+            "start": 0,
+            "end": 25
+          },
+          "sourceText": "第二章开头：阳光照亮窗户，邮局门口出现一个陌生人。",
+          "targetText": "The beginning of chapter two: Sunlight lit the window, and a stranger appeared at the entrance to the post office."
+        },
+        {
+          "id": "paragraph-2",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 2,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "1。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "1. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-3",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 3,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "2。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "2. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-4",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 4,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "3。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "3. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-5",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 5,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "4。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "4. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-6",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 6,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "5。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "5. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-7",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 7,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "6。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "6. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-8",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 8,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "7。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "7. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-9",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 9,
+            "start": 0,
+            "end": 85
+          },
+          "sourceText": "8。邮局的柜台旁放着一个花盆，月亮挂在天空。她毫不犹豫地走进神秘的旧屋，看见一位老人戴着眼镜，正在抽屉里寻找信纸。窗外的风铃轻轻响起，她忽然鼓起勇气，准备寻找自己的朋友。",
+          "targetText": "8. A flowerpot stood beside the post office counter, and the moon hung in the sky. Without hesitation, she entered the mysterious old house and saw an elderly person wearing glasses, searching a drawer for writing paper. The wind chime outside the window rang softly. She suddenly mustered her courage and prepared to look for her friend."
+        },
+        {
+          "id": "paragraph-10",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 10,
+            "start": 0,
+            "end": 13
+          },
+          "sourceText": "[图片暂不可用：外部图片]",
+          "targetText": "[Image unavailable: external image]"
+        },
+        {
+          "id": "paragraph-11",
+          "chapterId": "epub-4-0",
+          "source": {
+            "paragraph": 11,
+            "start": 0,
+            "end": 15
+          },
+          "sourceText": "全书最后一句：月光照亮了归途。",
+          "targetText": "The final sentence of the book: Moonlight lit the way home."
+        }
+      ],
+      "updatedAt": "2026-10-16T14:57:40.951Z"
+    }
+  ]
+}

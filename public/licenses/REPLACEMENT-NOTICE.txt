@@ -1,0 +1,30 @@
+词境阅读 · 小说显示替换映射（2026-10-16）
+
+适用数据：data/replacement/curated-pairs.tsv、source-evidence.json 与
+src/features/replacement/data/rules.json。341 条中文表达映射，307 个不同英文目标。
+这些是编辑挑选具体义项、同义表达、少量简单组合和语法限制后的独立规则，
+并非英汉查询词库的整体反向索引；不表示上游认可本产品或保证所有语境准确。
+
+来源：
+1. ECDICT，Copyright (c) 2025 Linwei，MIT。
+   https://github.com/skywind3000/ECDICT
+   固定提交 bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b，ecdict.csv。
+   修改：选取日常名词、形容词、副词和动作的具体中文义项；使用原有复数字段；
+   逐项保留词条证据；编辑核对少量简单形容词+名词等组合，不自动推测时态。
+   完整许可：ECDICT-MIT.txt。
+2. 既有短语库的英文名单依据：2ndLA and contributors，english-phrases，CC BY-SA 4.0。
+   https://github.com/2ndLA/english-phrases
+   固定提交 a03f97177ec0db8986085fb3edc1e64a4660e46c。
+   从已有查询短语中单独筛选小说可用表达，没有将整库反向转成规则。
+   完整许可：english-phrases-CC-BY-SA-4.0.txt。
+3. CC-CEDICT contributors / MDBG，CC BY-SA 4.0。
+   https://www.mdbg.net/chinese/dictionary?page=cedict
+   快照 2026-10-14T21:50:50Z；原始项目 CEDICT - Copyright (C) 1997, 1998 Paul Andrew Denisowski。
+   复用既有 think of / without hesitation 的中文义项核对证据。
+   许可：https://creativecommons.org/licenses/by-sa/4.0/ 。
+
+此经选择、修改和组合的替换映射数据集合按 CC BY-SA 4.0 提供，保留 MIT 通知。
+https://creativecommons.org/licenses/by-sa/4.0/
+数据按原样提供，无担保。本声明不更改应用程序代码的许可。
+来源版本、中文证据、组合标记见项目 data/replacement/source-evidence.json；
+筛选脚本为 scripts/build_replacements.py，构建清单为 data/replacement/build-report.json。
