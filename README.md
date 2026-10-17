@@ -2,7 +2,7 @@
 
 在故事里，自然学英语。
 
-面向手机与电脑的免费英语学习阅读器，React + TypeScript + Vite + Tailwind CSS，纯前端，无账号、后端数据库或付费 API。小说与学习记录属于访问者自己的浏览器。目前未发布，不安装 AI 模型，也未配置 PWA。
+面向手机与电脑的免费英语学习阅读器，React + TypeScript + Vite + Tailwind CSS，纯前端，无账号、后端数据库或付费 API。小说与学习记录属于访问者自己的浏览器。网站已由用户通过 GitHub Pages 发布；本轮修复仅在本地，不安装 AI 模型，也未配置 PWA。
 
 ## 当前功能
 
@@ -72,6 +72,7 @@ src/
 
 进一步说明：
 
+- [高浓度修复与自动翻译方案](docs/CONCENTRATION-FIX.md)
 - [最后检查与真机清单](docs/FINAL-CHECK.md)、[完整备份与恢复](docs/BACKUP.md)
 - [生词本、分类与句子收藏](docs/LEARNING-COLLECTIONS.md)
 - [阅读交互与替换修复](docs/READING-EXPERIENCE.md)
@@ -81,4 +82,4 @@ src/
 - [EPUB 安全与限制](docs/EPUB.md)
 - [静态部署说明](docs/DEPLOYMENT.md)
 
-本轮自动测试 135 项通过。生产只发布 `dist/`，不发布测试文件、evidence、.env 或本机路径。后续每次只开发经用户确认的任务，测试后停止。
+本轮自动测试 140 项通过。生产只发布 `dist/`，不发布测试文件、evidence、.env 或本机路径。后续每次只开发经用户确认的任务，测试后停止。
