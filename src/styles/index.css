@@ -264,3 +264,7 @@ button:disabled { opacity: .5; cursor: not-allowed; }
 .backup-preview { padding: 1rem 0; }
 .backup-settings-choice { display:flex; align-items:flex-start; gap:.6rem; line-height:1.6; margin-top:1rem; }
 .backup-settings-choice input { margin-top:.3rem; flex-shrink:0; }
+
+.auto-translation-controls { margin: 12px 0; border-top: 1px solid var(--line); padding-top: 8px; }
+.auto-translation-controls progress { width: 100%; accent-color: var(--accent); }
+.translation-cache-controls { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 12px; font-size: 13px; line-height: 1.8; }

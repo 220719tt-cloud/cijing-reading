@@ -1,0 +1,16 @@
+{
+  "name": "cijing-translation",
+  "main": "translation.ts",
+  "compatibility_date": "2026-10-17",
+  "workers_dev": true,
+  "ai": { "binding": "AI" },
+  "vars": {
+    "ALLOWED_ORIGINS": "https://220719tt-cloud.github.io",
+    "TRANSLATION_ENABLED": "false"
+  },
+  "ratelimits": [
+    { "name": "PER_IP", "namespace_id": "1984101", "simple": { "limit": 12, "period": 60 } },
+    { "name": "GLOBAL", "namespace_id": "1984102", "simple": { "limit": 60, "period": 60 } }
+  ],
+  "observability": { "enabled": false }
+}

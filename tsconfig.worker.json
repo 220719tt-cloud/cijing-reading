@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"ES2022","lib":["ES2022","WebWorker"],"module":"ESNext","moduleResolution":"Bundler","strict":true,"noEmit":true,"allowImportingTsExtensions":true,"skipLibCheck":true,"types":[],"noUnusedLocals":true,"noUnusedParameters":true},"include":["worker/translation.ts"]}

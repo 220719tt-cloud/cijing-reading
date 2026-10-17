@@ -8,8 +8,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.node.json",
-    "build": "tsc --noEmit && tsc --noEmit -p tsconfig.node.json && vite build",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.worker.json",
+    "build": "tsc --noEmit && tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.worker.json && vite build",
     "preview": "vite preview",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
     "check:static": "node scripts/check_static.mjs"

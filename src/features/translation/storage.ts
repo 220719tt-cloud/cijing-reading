@@ -69,3 +69,24 @@ export async function addBackupTranslations(records:{bookId:string;chapterId:str
   const {addMissing}=await import('../../shared/storage/addMissing.ts')
   return addMissing(await openDatabase(),[{store:'chapters',records:records.map(value=>({key:[value.bookId,value.chapterId],value}))}])
 }
+
+/** Small incremental writes validate only the current chapter, not the entire novel. */
+export async function saveChapterTranslation(book:Book,index:number,input:ChapterTranslation,expected?:ChapterTranslation|null) {
+  const translation=await validateChapterTranslation(input,book,index)
+  const record={bookId:book.id,chapterId:book.chapters[index].id,translation} satisfies StoredChapter
+  if(expected===undefined){await operation('readwrite',store=>store.put(record));return translation}
+  const db=await openDatabase()
+  return new Promise<ChapterTranslation>((resolve,reject)=>{
+    const tx=db.transaction('chapters','readwrite'),store=tx.objectStore('chapters');let failure:unknown
+    const read=store.get([book.id,record.chapterId])
+    read.onsuccess=()=>{try{
+      if(JSON.stringify(read.result?.translation??null)!==JSON.stringify(expected))throw new Error('译文在其他页面发生变化，本次未覆盖。请重新读取后重试。')
+      store.put(record)
+    }catch(error){failure=error;tx.abort()}}
+    tx.oncomplete=()=>{db.close();resolve(translation)}
+    tx.onabort=()=>{db.close();reject(failure??tx.error??new Error('译文未保存，请检查存储空间。'))}
+  })
+}
+export async function deleteChapterTranslation(bookId:string,chapterId:string) {
+  await operation('readwrite',store=>store.delete([bookId,chapterId]))
+}

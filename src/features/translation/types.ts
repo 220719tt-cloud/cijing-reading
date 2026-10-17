@@ -1,6 +1,6 @@
 import type { Book, Chapter } from '../../shared/types/book'
 
-/** Inert, versioned translation data; no AI provider is bundled. */
+/** Inert, versioned translation data; no AI model is bundled. */
 export interface SourceRange {
   paragraph: number
   /** Original UTF-16 offsets, never translated-text offsets. */
@@ -34,6 +34,8 @@ export interface ChapterTranslation {
   chapterTitle: string
   status: 'partial' | 'complete'
   segments: TranslationSegment[]
+  /** Model-discovered proper names; optional for old/manual packages. */
+  glossary?: Record<string,string>
   updatedAt: string
 }
 export interface TranslationPackage {

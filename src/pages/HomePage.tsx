@@ -52,6 +52,6 @@ export function HomePage({ books, loading, loadError, onRetry, onSave, onDelete 
       <p className="sample-note">三本原创示例小说 · 阅读进度为演示数据</p>
     </section>
     {importOpen && <ImportPanel onSave={onSave} onClose={() => setImportOpen(false)} />}
-    <p className="shelf-footer">小说仅保存在当前浏览器，不会上传。清理网站数据会丢失本地书库，请保留原文件。<br /><a href="#/settings">查看本地数据说明</a></p>
+    <p className="shelf-footer">导入小说仅保存在当前浏览器；自动云翻译需另行允许发送所选章节。清理网站数据会丢失本地书库，请保留原文件。<br /><a href="#/settings">查看本地数据说明</a></p>
   </div>
 }

@@ -121,7 +121,7 @@ test('拒绝错书、错章节、改原文、越界、重复和重叠片段，�
   value=>value.chapters[0].segments[1].id=value.chapters[0].segments[0].id,
   value=>{value.chapters[0].segments.pop();value.chapters[0].status='complete'},
   value=>value.schemaVersion=2,
-  value=>value.chapters[0].segments[0].targetText=value.chapters[0].segments[0].sourceText,
+  value=>{const segment=value.chapters[0].segments.find(item=>/[\u3400-\u9fff]/u.test(item.sourceText));segment.targetText=segment.sourceText},
  ]
  for(const mutate of mutations){const value=clone(ready);mutate(value);await assert.rejects(validateTranslationPackage(value,book))}
 })

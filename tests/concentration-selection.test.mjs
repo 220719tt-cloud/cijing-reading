@@ -37,7 +37,7 @@ test('部分译文不冒充目标比例，大句组无法接近时明确解释�
  assert.equal(result.coveredPercent,100);assert.match(result.message,/句组较长/)
  assert.equal(result.model.runs.filter(run=>run.translation).length,1);assert.equal(result.model.original,original)
  const missing=buildBilingualDisplay(ch,baseline,undefined,80,'coarse')
- assert.equal(missing.coveredPercent,0);assert.match(missing.message,/尚未接入自动翻译/);assert.equal(missing.model.text,original)
+ assert.equal(missing.coveredPercent,0);assert.match(missing.message,/自动翻译/);assert.equal(missing.model.text,original)
 })
 test('真实显示模型中60/80选完整对应句组，原文位置连续且100仍须完整',()=>{
  const ch={id:'weighted',title:'算法测试',order:0,paragraphs:weights.map(size=>'文'.repeat(size))}

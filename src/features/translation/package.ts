@@ -1,5 +1,6 @@
 import type { Book, Chapter } from '../../shared/types/book'
 import type { ChapterTranslation, TranslationPackage, TranslationSegment, TranslationExchange } from './types'
+import {validateGlossary,neutralCopy} from './automatic/protocol.ts'
 import { contentHash } from './hash.ts'
 export const TRANSLATION_LIMITS={file:20*1024*1024,segments:50000,chapterSegments:6000,target:120000,chapterText:120000}
 export const textWeight=(text:string)=>text.replace(/\s/gu,'').length
@@ -50,7 +51,7 @@ function safeBoundary(text:string,offset:number) {return !(offset>0&&offset<text
 export function translationCoverage(chapter:Chapter,segments:readonly TranslationSegment[]) {
   const total=chapter.paragraphs.reduce((n,text,i)=>n+(paragraphIsText(chapter,i)?textWeight(text):0),0)
   const covered=segments.reduce((n,segment)=>n+textWeight(segment.sourceText),0)
-  return {total,covered,complete:covered===total,percent:total?Math.min(100,Math.round(covered/total*100)):0}
+  return {total,covered,complete:covered===total,percent:total?(covered>=total?100:Math.min(99,Math.round(covered/total*100))):0}
 }
 export async function validateChapterTranslation(value:unknown,book:Book,index:number):Promise<ChapterTranslation> {
   const input=object(value),chapter=book.chapters[index],identity=object(input.identity)
@@ -70,7 +71,7 @@ export async function validateChapterTranslation(value:unknown,book:Book,index:n
     if(sourceText!==source.slice(start,end)||!textWeight(sourceText)) throw new Error('译文片段与对应中文原文不一致。')
     ranges.push({paragraph,start,end})
     if(!targetText.trim()) continue // Unfilled template segments are genuinely missing.
-    if(!/[a-z]/i.test(targetText)||/[\u3400-\u9fff]/u.test(sourceText)&&targetText.trim()===sourceText.trim()) throw new Error('译文片段没有可用英文，不能用中文原文冒充译文。')
+    if(!/[a-z]/i.test(targetText)&&!neutralCopy(sourceText,targetText)||/[\u3400-\u9fff]/u.test(sourceText)&&targetText.trim()===sourceText.trim()) throw new Error('译文片段没有可用英文，不能用中文原文冒充译文。')
     if((targetText.match(/[\u3400-\u9fff]/gu)?.length??0)>6 && (targetText.match(/[\u3400-\u9fff]/gu)?.length??0)>(targetText.match(/[a-z]/gi)?.length??0)*.25) throw new Error('译文仍以中文为主，请填写真正的英文译文（可保留少量人物名称）。')
     if(targetText.length>Math.max(500,sourceText.length*20)||/\u0000/.test(targetText)) throw new Error('译文片段长度异常或含无效字符。')
     segments.push({id,chapterId:chapter.id,source:{paragraph,start,end},sourceText,targetText})
@@ -81,7 +82,7 @@ export async function validateChapterTranslation(value:unknown,book:Book,index:n
   segments.sort((a,b)=>a.source.paragraph-b.source.paragraph||a.source.start-b.source.start)
   const coverage=translationCoverage(chapter,segments)
   if(input.status==='complete'&&!coverage.complete) throw new Error('译文标注为完整，但仍有未翻译的正文。请补齐或将状态设为 partial。')
-  return {schemaVersion:1,chapterId:chapter.id,chapterIndex:index,chapterTitle:chapter.title,identity:{sourceHash:identity.sourceHash as string,sourceLanguage:'zh',targetLanguage:'en',provider:string(identity.provider,'提供者'),modelVersion:string(identity.modelVersion,'模型版本'),configurationHash:string(identity.configurationHash,'配置版本'),contextHash:string(identity.contextHash,'上下文版本')},status:coverage.complete?'complete':'partial',segments,updatedAt:typeof input.updatedAt==='string'&&input.updatedAt.length<60&&Number.isFinite(Date.parse(input.updatedAt))?input.updatedAt:new Date().toISOString()}
+  return {schemaVersion:1,chapterId:chapter.id,chapterIndex:index,chapterTitle:chapter.title,identity:{sourceHash:identity.sourceHash as string,sourceLanguage:'zh',targetLanguage:'en',provider:string(identity.provider,'提供者'),modelVersion:string(identity.modelVersion,'模型版本'),configurationHash:string(identity.configurationHash,'配置版本'),contextHash:string(identity.contextHash,'上下文版本')},status:coverage.complete?'complete':'partial',segments,...(input.glossary===undefined?{}:{glossary:validateGlossary(input.glossary)}),updatedAt:typeof input.updatedAt==='string'&&input.updatedAt.length<60&&Number.isFinite(Date.parse(input.updatedAt))?input.updatedAt:new Date().toISOString()}
 }
 export async function validateTranslationPackage(value:unknown,book:Book):Promise<TranslationPackage> {
   const input=object(value),reference=object(input.book),expected=await bookIdentity(book)

@@ -19,8 +19,8 @@ export function buildBilingualDisplay(chapter:Chapter,baseline:DisplayText,trans
   if(concentration===0) return empty
   if(!coverage.total) return {...empty,message:'本章没有需要翻译的文字，图片按原样显示。'}
   if(concentration===20) return {...empty,message:'中文为主，使用本地单词和短语替换。'}
-  if(concentration===100&&missing) return {...empty,message:`本章译文尚未完整（已覆盖 ${coverage.percent}%）。100% 需要补齐正文，当前显示原文。本网站尚未接入自动翻译，请导入本章英文译文或完整备份。`,badge:'译文未完整 · 当前为原文'}
-  if(!available) return {...empty,message:concentration===40?'本章暂无句子译文，当前使用本地词语／短语替换。可导入译文加入完整英文句子。':'本章尚无英文译文，当前显示原文。本网站尚未接入自动翻译，60%／80% 需要先导入与原文对应的译文；本地预览和上线网址的数据不会自动同步。',badge:concentration>=60?'暂无译文 · 当前为原文':''}
+  if(concentration===100&&missing) return {...empty,message:`本章译文尚未完整（已覆盖 ${coverage.percent}%）。100% 需要补齐正文，当前显示原文。自动翻译未完成时保留原文，请查看翻译进度、重试，或导入本章译文。`,badge:'译文未完整 · 当前为原文'}
+  if(!available) return {...empty,message:concentration===40?'本章暂无句子译文，当前使用本地词语／短语替换。可导入译文加入完整英文句子。':'本章尚无英文译文，当前显示原文。请配置并允许自动翻译，或重试失败的任务；也可导入对应译文。本地预览和上线网址的数据不会自动同步。',badge:concentration>=60?'暂无译文 · 当前为原文':''}
   let offset=0
   const starts=chapter.paragraphs.map(text=>{const start=offset;offset+=text.length+2;return start})
   const pool=translation!.segments.map(segment=>({segment,start:starts[segment.source.paragraph]+segment.source.start,end:starts[segment.source.paragraph]+segment.source.end}))

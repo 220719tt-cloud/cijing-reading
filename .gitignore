@@ -84,3 +84,8 @@ tmp/
 *.swp
 *.swo
 *~
+
+# Cloudflare local secrets and generated runtime
+.dev.vars
+.dev.vars.*
+.wrangler/
