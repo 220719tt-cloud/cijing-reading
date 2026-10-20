@@ -24,7 +24,7 @@ export function splitText(text: string): Book['chapters'] {
   const chunks: string[] = []
   let rest = text
   while (rest.length > 12000) {
-    let end = rest.lastIndexOf('\n', 12000)
+    let end = rest.lastIndexOf('\n', 11999)
     if (end < 6000) end = 12000
     else end += 1
     const code = rest.charCodeAt(end - 1)

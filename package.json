@@ -12,7 +12,8 @@
     "build": "tsc --noEmit && tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.worker.json && vite build",
     "preview": "vite preview",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
-    "check:static": "node scripts/check_static.mjs"
+    "check:static": "node scripts/check_static.mjs",
+    "worker:editor": "node scripts/build_worker_editor.mjs"
   },
   "dependencies": {
     "@zip.js/zip.js": "^2.23.0",
@@ -31,7 +32,8 @@
     "jsdom": "^26.1.0",
     "tailwindcss": "^4.0.0",
     "typescript": "~5.9.3",
-    "vite": "^7.0.0"
+    "vite": "^7.0.0",
+    "wrangler": "4.151.1"
   },
   "packageManager": "pnpm@11.19.0"
 }

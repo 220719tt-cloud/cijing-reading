@@ -1,27 +1,10 @@
-# 公开静态部署准备与验收
+# GitHub Pages 发布检查
 
-更新：2026-10-16。产品定位：面向所有用户的免费在线英语学习阅读器。任何人可通过公开链接使用，不要求安装 App、注册本站账号或连接开发者的 Mac。本轮仅准备，尚未上传、发布或产生公开网址。
+更新：2026-10-19。本地新版已通过静态部署检查，可作为公开试用版准备发布；真实长章云翻译的网络稳定性及真机验收尚未完成，不应描述为全部核心功能稳定的正式版。本轮不提交、不推送、不触发发布，也不更新 Worker。当前公开网址为 https://220719tt-cloud.github.io/cijing-reading/ ，线上仍是较早的手动译文版本，不能把本地功能当作已经上线。详细验收记录见 [本轮检查](RELEASE-CHECK-2026-10-19.md)。
 
-## 当前结论
+## 构建与发布
 
-具备现代浏览器公开试用的静态部署条件。本轮发现的根路径资源引用、主题保存失败静默、书库异常连接清理、可选容量估算异常和 EPUB 结构复杂度限制问题已修复。
-
-这不表示已经完成所有设备验收：本机内置 Chromium 的实际浏览器检查与手机尺寸模拟已完成；真实 iPhone Safari／Chrome、Android Chrome／Edge、Mac Safari／Firefox、Windows Chrome／Edge 仍未逐一实测。完整质量承诺前需要在真实设备完成 TXT/EPUB 文件选择、触摸翻页、字号重排、释义卡、刷新恢复和存储受限检查。兼容基线仍为 Safari 16.4+、Chrome/Edge 111+、Firefox 128+；更老浏览器不承诺完整支持。
-
-英语浓度六档现已接入本地译文：20% 保留规则替换，40% 可结合真实句组，60%／80%／100% 使用用户导入的对应英文；100% 缺失时明确回原文。本轮没有安装模型或实现自动翻译，详见 docs/BILINGUAL.md。当前也没有 PWA／Service Worker，不能承诺断网后首次打开或刷新整个网站一定成功；已经缓存的词库可离线查询。
-
-## 发布文件与路径
-
-`pnpm build` 输出 `dist/`，仅该目录是网站内容。生产浏览器不需要 Node、pnpm、Python、Vite 或 Mac 本地服务。它仍需通过普通 HTTP(S) 静态托管访问，不是双击 index.html 的 file:// 使用方式。
-
-Vite `base: './'`、hash 路由、JSON 资源导入及许可链接共同支持根目录和仓库子目录：
-
-- `https://<用户名>.github.io/<仓库名>/#/books`
-- `https://<域名>/#/books`
-
-不要把地址改成无 hash 的 `/read/...`，也不需要为现有路由配置服务器 rewrite。项目子目录网址应带结尾 `/`。
-
-检查命令（推荐 Node 24、pnpm 11.19.0）：
+在项目根目录，使用 Node 24、pnpm 11.19.0：
 
 ```sh
 pnpm install --frozen-lockfile
@@ -31,72 +14,40 @@ pnpm build
 pnpm check:static
 ```
 
-`check:static` 在本机临时监听回环地址，用普通 HTTP 同时验证根路径和 `/cijing-reading/` 下的全部构建文件、hash 路由、相对入口资源、许可文件、安全策略，以及构建中常见私钥／本机路径模式。它不是全功能浏览器测试，也不是完整的密钥检测或安全审计。
+只托管 `dist/`，不上传工作目录、node_modules、私人小说、备份、.env、Wrangler 登录文件。Vite `base: './'`，使用 `#/books`／`#/read/...` 路由，支持根路径和 `/cijing-reading/` 子路径。子路径网址应以 `/` 结尾，不需要服务端 rewrite；不是双击 file:// 运行。
 
-`pnpm preview` 仅供开发者检查构建，并不是对外长期运行的生产服务器。向其他设备分享 localhost 或 127.0.0.1 不会让它们访问这台电脑。
+`.github/workflows/pages.yml` 仅接受手动 workflow_dispatch，push 不会发布。build 安装冻结依赖、检查类型、运行全部测试、构建并检查静态文件；deploy 只接收 dist，使用 GitHub 官方 Pages Actions、github-pages 环境、pages:write 和 id-token:write。Action 固定提交已核验可访问。
 
-## 推荐平台：GitHub Pages
+用户确认发布后：上传本项目源码 → 仓库 Settings → Pages → Source 选择 GitHub Actions → Actions → Publish static website (manual) → Run workflow。确认 build/deploy 都成功，再访问 HTTPS 正式链接检查。不要现在执行。
 
-选择原因：现有项目完全静态，已有 hash 路由，不需要云函数或数据库；公开仓库可以使用免费 Pages。后续若迁移到其他静态平台，也只需托管同一份 dist。
+## 翻译连接与安全
 
-已准备 `.github/workflows/pages.yml`，只接受 `workflow_dispatch` 手动运行，push 不会触发发布。它会安装锁定依赖、运行 TypeScript／测试／构建／静态检查，仅上传 dist，最后使用 GitHub 官方 Pages action 发布；无需在源码填写令牌或 API 密钥。本轮没有连接仓库或实际执行该 workflow，GitHub 环境中的首次运行仍待用户完成。
+默认公开接口为 `https://cijing-translation.220719tt.workers.dev/translate`。构建变量 `VITE_TRANSLATION_API_URL` 可留空，留空采用同一默认值；若仓库有旧覆盖值，发布前应核对。它只能保存公开服务地址，不能放密钥。生产 CSP 允许同源和这个确切 Worker HTTPS 来源，不开放通配符。
 
-获得公开网址的步骤（仅在用户确认发布之后操作）：
+正式请求由访问者浏览器直接 POST Worker，包含 version:1、segments、context、glossary。Worker 的允许来源必须包含 `https://220719tt-cloud.github.io`（来源不含仓库路径）；现有 AI、PER_IP、GLOBAL、来源白名单、开关和限流保持不变。当前可从正式来源预检并取得真实翻译响应，详见本轮记录；这不等于旧线上前端已经接入。
 
-1. 在 GitHub 创建公开仓库，例如 `cijing-reading`。把本项目目录中的源码、package.json、pnpm-lock.yaml、pnpm-workspace.yaml、public、tests、scripts、docs 和 `.github` 等放到仓库根目录。不要上传整个 Codex 工作目录、node_modules、evidence、.env 或私人文件。小说存在浏览器 IndexedDB，并不在源码或 dist 中。
-2. 仓库 Settings → Pages → Build and deployment → Source，选择 **GitHub Actions**。
-3. Actions → **Publish static website (manual)** → Run workflow，选择已上传代码的分支。上传源码不会自动执行这一步。
-4. 等待 build 和 deploy 两个任务成功。Pages 设置或 github-pages 环境会给出真实网址，通常为 `https://<用户名>.github.io/cijing-reading/`，可分享其 `#/books` 地址。
-5. 使用生成的 HTTPS 链接在另一台设备检查首页、词库、TXT、EPUB、分页和刷新恢复，再决定是否正式推广。首次网址、域名或协议变更不会自动迁移原先 localhost 的书库。
+开发回环转发只存在于 Vite serve 模式，编译后不存在 `/__dev/translate` 或 localhost 依赖。生产浏览器不需要开发者 Mac、Node、Vite 或本地模型。不要为了本地测试把 localhost 加到公共白名单、关闭 CORS 或取消限流。
 
-若失败，检查 workflow 日志和 Pages 权限／环境设置。不要把 GitHub token 或翻译密钥填进 VITE_* 环境变量，前端构建变量对访问者可见。
+所有非零浓度共用既有真实译文缓存与原文范围预算，0% 显示原文。经读者明确同意，自动翻译才发送所选章节及必要上下文到 Cloudflare。普通失败直接跳过并保留中文，不保证 100% 成功，也不保证所有人无限量免费翻译；鉴权、额度、网络和存储故障安全停止。现有约80%覆盖可继续阅读，不会自动补翻已跳过内容。完整机制见 [自动翻译](AUTO-TRANSLATION.md)、[六档浓度](CONCENTRATION-SYSTEM.md)、[失败跳过](TRANSLATION-SKIP-PASS.md)。
 
-参考官方资料：
-- https://vite.dev/guide/build#relative-base
-- https://vite.dev/guide/static-deploy.html
-- https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
-- https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+`worker/wrangler.jsonc` 是初始化模板，不能直接部署覆盖现有云端配置。阅读网站发布与 Worker 发布分别授权，本轮均不执行。
 
-## 本地数据与隐私
+## 本地数据
 
-| 内容 | 当前存储位置 | 行为 |
-| --- | --- | --- |
-| TXT／EPUB 正文、目录和图片 | `cijing-reading` IndexedDB v1，books | 原文只保存在访问者浏览器，导入不上传 |
-| 查询词库缓存 | `cijing-vocabulary` IndexedDB v2，assets | 首次从同一静态网站下载公开词库，缓存可离线查询 |
-| 收藏／掌握 | 同上，favorites／mastery | 用户主动操作保存，不推定掌握 |
-| 本地英文译文 | `cijing-translations` IndexedDB v1，chapters | 按章节单独保存，支持 JSON 导入／导出 |
-| 阅读位置 | localStorage `cijing-position:<bookId>` | 原文 chapterId + paragraph + UTF-16 offset；可附当前显示指纹位置辅助恢复 |
-| 字号、英语浓度、提示、背景与翻页 | localStorage 的字体与阅读偏好键 | 与小说原文分开保存 |
-| 书架主题 | localStorage `cijing-theme` | 保存失败显示提示，当前切换仍可用 |
+- 小说、目录、封面与插图：IndexedDB `cijing-reading` v1。
+- 词库缓存、收藏、掌握：IndexedDB `cijing-vocabulary` v2。
+- 章节译文及失败范围：IndexedDB `cijing-translations` v1。
+- 进度：localStorage `cijing-position:<bookId>`，记录原文章节／段落／偏移。
+- 字号、浓度、提示、背景、翻页、主题：localStorage；云翻译许可不会随备份转移。
 
-不同来源（协议／主机／端口）和浏览器配置文件各自保存，不自动同步。网址路径不是来源隔离边界；同一来源下本应用沿用已有 cijing-* 命名，部署时应避免同源的另一份应用混用同名数据库。同一个浏览器配置文件的使用者会共享本地书库，本项目没有账号级隔离。
+刷新不会主动清理上述数据。不同浏览器、主机、协议、端口各有自己的存储，localhost 的小说不会自动出现在正式网址；完整 ZIP 备份与安全合并恢复入口位于设置页，见 [BACKUP.md](BACKUP.md)。恢复默认不覆盖已有小说、译文、进度和学习记录。清理浏览器数据、无痕会话结束或系统存储回收仍可能丢失本地内容，请保留备份。容量和存储失败会报告，不能宣称存在云备份。
 
-当前源码中唯一主动 fetch 是从本网站下载公开词库 JSON，没有上传小说、分析统计、广告、云数据库、付费翻译或开发者 Mac 接口。系统发音使用浏览器语音能力，不承诺所有系统声音均离线。静态托管商仍可能记录正常的网站访问日志，但不会因此获得没有上传的小说正文。
+TXT/EPUB 导入本身只在本地解析保存；仅允许云翻译后才发送必要正文，不上传整本书到 GitHub Pages。书籍原始 HTML/CSS/脚本不直接挂载，EPUB 使用结构化内容、资源路径/解压大小限制和 SVG 清理。CSP 是额外防线，不能替代解析校验。
 
-书库与学习记录不在本轮迁移或清空。保存须等待 IndexedDB 事务完成；缺失 API、读写失败、容量不足、连接阻塞均报告失败。容量估算是可选预检，即使该 API 不可用，也以实际写入结果为准。错误不会伪装成服务器已备份。
+## 兼容性边界
 
-浏览器手动清理、无痕会话结束或系统回收可能丢失数据。当前无法可靠判断“首次使用”与“已被浏览器清理”的区别，也无法从服务器恢复。书架、导入面板和设置页已明确说明，请保留原小说。2026-10-17 已增加完整 ZIP 备份与安全合并恢复，包含书库、插图、学习、进度、设置与译文；入口在设置页，操作与限制见 [BACKUP.md](BACKUP.md)。独立译文 JSON 导出仍保留。
+构建基线：Safari 16.4+、Chrome/Edge 111+、Firefox 128+。采用标准文件选择、IndexedDB、响应式布局、Pointer/Touch 和系统语音降级；文件导入不依赖 Safari 专属 API。
 
-存储策略参考：https://webkit.org/blog/14403/updates-to-storage-policy/
+手机尺寸模拟不等于真机：正式试用前仍需 iPhone Safari/Chrome、Android Chrome/Edge 的文件选择、真实触摸、地址栏伸缩、旋转、后台恢复和存储受限测试；Mac/Windows 的完整浏览器组合也应抽查。当前没有 PWA/Service Worker，不承诺断网首次加载或刷新整站成功；已保存的译文和词库无需再次翻译/下载，但前提是页面已可打开。
 
-## EPUB 与生产安全
-
-继续使用安全结构化内容渲染，不挂载书籍原始 HTML／CSS，也不使用 EPUB iframe。保留原有 DTD／实体、危险资源路径、重复路径、压缩大小、实际解压流和图片总量检查；本轮增加 XML 最多 60,000 个元素、深度 128 的限制，避免递归处理极端结构；SVG 排除 CSS 转义绕过及事件／脚本／外部资源。
-
-生产 index.html 增加 CSP：脚本和网络请求仅允许同来源；图片允许同源、Blob 和 data；禁止 object、iframe 和表单提交；样式允许应用所需的行内样式。该策略仅用于生产构建，避免影响开发 HMR，是额外防线，不能替代 EPUB 清理。CSP 的 frame-ancestors 需要托管平台响应头，不宣称 meta 已提供反嵌入保护。
-
-生产依赖审计 `pnpm audit --prod --json` 本轮报告 36 个生产依赖、0 个已知漏洞；这不是未来永远无漏洞或完整渗透测试的保证。公开许可证随 dist 发布，设置页可查看声明；原有词库与短语的来源、署名和许可保留。
-
-## 双语译文与未来 AI
-
-`src/features/translation/` 已实现版本化译文包、独立章节缓存、JSON 导入／导出和六档组合阅读。Provider 只有类型接口，没有自动推理或网络服务。完整说明、限制与本轮 103 项测试见 [双语说明](BILINGUAL.md)。继续保持静态架构，不把翻译密钥放入前端。
-
-## 静态部署准备阶段测试记录（历史）
-
-- 83 项自动测试通过，包含既有 TXT、EPUB、替换、学习记录、设置与进度；新增隔离／清理、同步写入失败、阻塞后迟到连接、配额错误兼容、估算异常、XML 复杂度和 SVG 转义检查。
-- TypeScript 与生产构建通过；冻结 lockfile 离线安装检查通过。
-- 全部生产文件在普通静态 HTTP 的根目录和模拟仓库子目录均可取得；入口不依赖本机地址／源码路径／开发服务器。
-- 浏览器子路径实际完成词库查询、收藏和掌握刷新恢复、中文 EPUB 导入、两张本地插图、0→40% 混合显示、点词释义、20px 与浅绿色／无动画设置、键盘翻页以及第 2 页刷新恢复。
-- TXT 实际完成 UTF-8 导入和完整尾句阅读；自动测试继续覆盖 GBK／GB18030。
-- 360×800、390×844 视口下无整页横向溢出；桌面尺寸同一生产构建可使用。模拟视口不代表 Safari／Edge 或 iOS／Android 真机测试。
-- 未上传 GitHub、未触发 GitHub Actions、未实际发布，暂无可对外分享的真实公开网址。
+参考： [Vite 静态部署](https://vite.dev/guide/static-deploy.html)、[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。

@@ -15,6 +15,15 @@ const html = await readFile(path.join(root, 'index.html'), 'utf8')
 assert.match(html, /Content-Security-Policy/)
 assert.match(html.replaceAll('&#39;', "'"), /connect-src 'self'/)
 assert.match(html.replaceAll('&#39;', "'"), /script-src 'self'/)
+const connect=html.replaceAll('&#39;', "'").match(/connect-src ([^;]+);/)?.[1].trim().split(/\s+/)
+assert.ok(connect&&connect[0]==="'self'"&&connect.length<=2,'CSP must only allow self and one explicitly configured translation origin')
+if(connect.length===2){
+  const origin=new URL(connect[1])
+  assert.equal(origin.protocol,'https:')
+  assert.equal(origin.origin,connect[1],'CSP must use an exact HTTPS origin, without paths or wildcards')
+  const scripts=await Promise.all(paths.filter(file=>file.endsWith('.js')).map(file=>readFile(path.join(root,file),'utf8')))
+  assert.ok(scripts.some(code=>code.includes(`${origin.origin}/`)),'CSP translation origin must also exist in the compiled frontend')
+}
 const entryRefs = [...html.matchAll(/(?:src|href)="([^"#]+)"/g)].map(match => match[1])
 assert.ok(entryRefs.some(ref => ref.endsWith('.js')))
 for (const ref of entryRefs) {
@@ -25,6 +34,7 @@ for (const file of paths) {
   assert.ok(!/(?:^|\/)(?:\.env[^/]*|node_modules|tests|evidence)(?:\/|$)|\.(?:epub|txt\.local|map)$/i.test(file), 'Unexpected private or development file in dist')
   if (!/\.(?:js|css|html)$/.test(file)) continue
   const content = await readFile(path.join(root, file), 'utf8')
+  assert.ok(!content.includes('/__dev/translate'),'Local development translation relay must not exist in the public build')
   assert.ok(!/\/Users\/|file:\/\/|https?:\/\/(?:localhost|127\.0\.0\.1)(?::\d+)?|\/src\/main\.tsx/.test(content), 'Build contains a local runtime dependency')
   assert.ok(!/(?:sk-[A-Za-z0-9_-]{24,}|ghp_[A-Za-z0-9]{30,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)/.test(content), 'Build contains a possible secret')
 }

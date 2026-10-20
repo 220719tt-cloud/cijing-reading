@@ -41,7 +41,9 @@ export function validateBook(value:unknown,resources:Book['resources']):Book {
   if(raw.schemaVersion!==1||!['txt','epub','sample'].includes(String(raw.source)))throw new Error('不支持的小说备份版本。')
   const assetIds=new Set(resources?.map(asset=>asset.id)??[])
   const chapters=unique(arr(raw.chapters,20000).map(value=>{
-    const c=obj(value),paragraphs=arr(c.paragraphs,20000).map(text=>str(text,'段落',12000))
+    // Older TXT imports included a newline at offset 12000 in the same chunk.
+    // Preserve their exact text, IDs and offsets; do not repartition user data.
+    const c=obj(value),paragraphs=arr(c.paragraphs,20000).map(text=>str(text,'段落',12001))
     if(!paragraphs.length||paragraphs.reduce((n,text)=>n+text.length+2,0)>16000)throw new Error('备份单章过大或为空，无法安全分页。')
     let blocks:ReadingBlock[]|undefined
     if(c.blocks!==undefined) {

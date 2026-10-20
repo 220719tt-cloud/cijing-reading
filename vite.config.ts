@@ -1,15 +1,18 @@
 import { defineConfig, loadEnv } from 'vite'
-import {translationEndpoint} from './src/features/translation/automatic/protocol.ts'
+import {configuredTranslationEndpoint} from './config/translation.ts'
+import {devTranslationProxy} from './config/devTranslationProxy.ts'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-export default defineConfig(({mode})=>{
-  const endpoint=translationEndpoint(loadEnv(mode,process.cwd(),'VITE_').VITE_TRANSLATION_API_URL,mode==='development')
+export default defineConfig(({mode,command,isPreview})=>{
+  const endpoint=configuredTranslationEndpoint(loadEnv(mode,process.cwd(),'VITE_').VITE_TRANSLATION_API_URL,mode==='development')
   const connect=endpoint?` ${new URL(endpoint).origin}`:''
   return {
   // Hash routes and relative assets support both / and /<repository>/.
   base: './',
-  plugins: [react(), tailwindcss(), {
+  define: {'import.meta.env.VITE_TRANSLATION_API_URL': JSON.stringify(endpoint),'import.meta.env.VITE_TRANSLATION_DEV_RELAY':JSON.stringify(command==='serve'&&!isPreview)},
+  server: {host:'127.0.0.1',port:5194,strictPort:true},
+  plugins: [react(), tailwindcss(), devTranslationProxy(endpoint), {
     name: 'production-content-policy',
     apply: 'build',
     transformIndexHtml() {

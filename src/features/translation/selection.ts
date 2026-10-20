@@ -28,10 +28,3 @@ export function closestGroups<T>(items:readonly T[],weight:(item:T)=>number,targ
   for(let sum=best;sum>0;sum=parent[sum])selected.push(items[chosenBy[sum]])
   return selected
 }
-/** Each level chooses the closest attainable content weight; stable priority breaks ties. */
-export function selectTranslationGroups<T>(items:readonly T[],weight:(item:T)=>number,total:number,concentration:number) {
-  if(concentration===100)return [...items]
-  const available=items.reduce((sum,item)=>sum+weight(item),0)
-  const limit=concentration===40?Math.min(available,Math.floor(total*.35)):available
-  return closestGroups(items,weight,total*(concentration===40?.2:concentration/100),limit)
-}

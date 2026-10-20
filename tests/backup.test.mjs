@@ -135,3 +135,20 @@ test('localStorage受限时报告恢复未完成并可重试；默认不覆盖�
  await assert.rejects(restoreBackup(data,sampleBooks,{storage:broken}),/未全部完成/)
  const storage=new MemoryStorage();await restoreBackup(data,sampleBooks,{storage});assert.equal(storage.getItem('cijing-font-size'),'24');assert.equal((await listBooks()).length,2)
 }))
+test('旧TXT的12001字符边界段落可无损备份和跨设备恢复，不重排原文或进度',()=>device(async()=>{
+ const legacy={...txt,id:'legacy-newline-boundary',chapters:[{id:'legacy-part',order:0,title:'正文',paragraphs:['甲'.repeat(12000)+'\n']}]}
+ const store=new MemoryStorage(),position={chapterId:'legacy-part',paragraph:0,offset:12000}
+ store.setItem(`cijing-position:${legacy.id}`,JSON.stringify(position))
+ await saveBook(legacy)
+ const backup=await parseBackup(await createBackup([],store))
+ assert.equal(backup.books[0].chapters[0].paragraphs[0],legacy.chapters[0].paragraphs[0])
+ const source=globalThis.indexedDB;globalThis.indexedDB=new IDBFactory()
+ try{
+  const target=new MemoryStorage();await restoreBackup(backup,[],{storage:target})
+  assert.deepEqual((await listBooks())[0].chapters,legacy.chapters)
+  assert.deepEqual(JSON.parse(target.getItem(`cijing-position:${(await listBooks())[0].id}`)),position)
+ }finally{globalThis.indexedDB=source}
+ const {validateBook}=await import('../src/features/backup/validate.ts')
+ assert.throws(()=>validateBook({...legacy,chapters:[{...legacy.chapters[0],paragraphs:['甲'.repeat(12002)]}]},[]),/段落/)
+ assert.throws(()=>validateBook({...legacy,chapters:[{...legacy.chapters[0],paragraphs:['甲\0乙']}]},[]),/段落/)
+}))

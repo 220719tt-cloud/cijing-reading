@@ -23,4 +23,4 @@ export function loadPreferences(dark = false) {
   try { return normalizePreferences(JSON.parse(localStorage.getItem('cijing-reader-preferences') ?? 'null'), dark) }
   catch { return normalizePreferences(null, dark) }
 }
-export const englishDescriptions = ['完全中文原文', '单词、短语与少量匹配的整句', '英文短语与完整句子', '中英文句子混合，以英文为主', '大部分英文，少量中文辅助', '完整英文译文']
+export const englishDescriptions = ['完全中文原文', '中文为主，英文词组、短句与少量整句', '英文短语与完整句子', '中英文句子混合，以英文为主', '大部分英文，少量中文辅助', '完整英文译文']

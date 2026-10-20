@@ -1,4 +1,7 @@
 {
+  // Bootstrap/local-check template only. This is NOT the current remote configuration.
+  // Before updating an existing Worker, read its live bindings/vars/settings first.
+  // Do not publish this false switch or guessed namespace IDs over dashboard settings.
   "name": "cijing-translation",
   "main": "translation.ts",
   "compatibility_date": "2026-10-17",

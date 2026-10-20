@@ -43,7 +43,7 @@ export async function boundedJson(body:ReadableStream<Uint8Array>|null,limit:num
   const reader=body.getReader(),chunks:Uint8Array[]=[];let size=0
   try{for(;;){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>limit)throw new Error('请求或响应过大。');chunks.push(value)}}finally{await reader.cancel().catch(()=>{});reader.releaseLock()}
   const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length}
-  return JSON.parse(new TextDecoder('utf-8',{fatal:true}).decode(bytes)) as unknown
+  return JSON.parse(new TextDecoder('utf-8',{fatal:true,ignoreBOM:false}).decode(bytes)) as unknown
 }
 export function translationEndpoint(value:string|undefined,development=false){
   if(!value?.trim())return ''

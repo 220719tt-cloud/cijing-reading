@@ -1,3 +1,5 @@
+> 2026-10-17 六档覆盖重构已完成，当前行为与真实验收以 [CONCENTRATION-SYSTEM.md](CONCENTRATION-SYSTEM.md) 为准。下方20%仅本地及40%上限是旧阶段历史，不再适用。
+
 > 当前增量：已增加可选Cloudflare自动翻译、分批缓存、重试和删除；服务尚需运营者配置并完成真实模型联调。当前行为以 [AUTO-TRANSLATION.md](AUTO-TRANSLATION.md) 为准。下面保留此前手动译文阶段的格式和验收历史。
 
 # 六档英语浓度与本地双语译文

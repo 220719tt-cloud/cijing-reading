@@ -40,3 +40,9 @@ test('拒绝非 TXT 与超限文件', async () => {
   await assert.rejects(txtImporter.parse(new File(['内容'], 'book.epub')))
   await assert.rejects(txtImporter.parse(new File([new Uint8Array(MAX_TXT_BYTES + 1)], 'large.txt')))
 })
+test('换行在12000边界时新导入不超限，原字符及换行全部保留',()=>{
+ const text='甲'.repeat(12000)+'\n'+'尾声'
+ const chapters=splitText(text)
+ assert.equal(chapters.flatMap(c=>c.paragraphs).join(''),text)
+ assert.ok(chapters.every(c=>c.paragraphs[0].length<=12000))
+})

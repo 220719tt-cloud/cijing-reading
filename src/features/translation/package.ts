@@ -1,7 +1,10 @@
 import type { Book, Chapter } from '../../shared/types/book'
 import type { ChapterTranslation, TranslationPackage, TranslationSegment, TranslationExchange } from './types'
-import {validateGlossary,neutralCopy} from './automatic/protocol.ts'
+import {validateGlossary} from './automatic/protocol.ts'
+import {validNeutralTarget} from './neutral.ts'
 import { contentHash } from './hash.ts'
+import {checkedModelReason,failureReasons} from './automatic/errors.ts'
+import type {TranslationFailure} from './types'
 export const TRANSLATION_LIMITS={file:20*1024*1024,segments:50000,chapterSegments:6000,target:120000,chapterText:120000}
 export const textWeight=(text:string)=>text.replace(/\s/gu,'').length
 export function paragraphIsText(chapter:Chapter,index:number) {return chapter.blocks?.[index]?.kind!=='image' && textWeight(chapter.paragraphs[index])>0}
@@ -71,7 +74,7 @@ export async function validateChapterTranslation(value:unknown,book:Book,index:n
     if(sourceText!==source.slice(start,end)||!textWeight(sourceText)) throw new Error('译文片段与对应中文原文不一致。')
     ranges.push({paragraph,start,end})
     if(!targetText.trim()) continue // Unfilled template segments are genuinely missing.
-    if(!/[a-z]/i.test(targetText)&&!neutralCopy(sourceText,targetText)||/[\u3400-\u9fff]/u.test(sourceText)&&targetText.trim()===sourceText.trim()) throw new Error('译文片段没有可用英文，不能用中文原文冒充译文。')
+    if(!/[a-z]/i.test(targetText)&&!validNeutralTarget(sourceText,targetText)||/[\u3400-\u9fff]/u.test(sourceText)&&targetText.trim()===sourceText.trim()) throw new Error('译文片段没有可用英文，不能用中文原文冒充译文。')
     if((targetText.match(/[\u3400-\u9fff]/gu)?.length??0)>6 && (targetText.match(/[\u3400-\u9fff]/gu)?.length??0)>(targetText.match(/[a-z]/gi)?.length??0)*.25) throw new Error('译文仍以中文为主，请填写真正的英文译文（可保留少量人物名称）。')
     if(targetText.length>Math.max(500,sourceText.length*20)||/\u0000/.test(targetText)) throw new Error('译文片段长度异常或含无效字符。')
     segments.push({id,chapterId:chapter.id,source:{paragraph,start,end},sourceText,targetText})
@@ -80,9 +83,22 @@ export async function validateChapterTranslation(value:unknown,book:Book,index:n
   for(let i=1;i<ranges.length;i++) if(ranges[i].paragraph===ranges[i-1].paragraph&&ranges[i].start<ranges[i-1].end) throw new Error('译文原文范围重叠，无法安全对应。')
   if(segments.reduce((total,item)=>total+item.targetText.length,0)>TRANSLATION_LIMITS.chapterText) throw new Error('单章译文超过 120,000 字符，已停止导入以保护设备内存。')
   segments.sort((a,b)=>a.source.paragraph-b.source.paragraph||a.source.start-b.source.start)
+  const failures:TranslationFailure[]=[]
+  if(input.failures!==undefined){
+    if(!Array.isArray(input.failures)||input.failures.length>TRANSLATION_LIMITS.chapterSegments)throw new Error('失败记录数量无效。')
+    for(const value of input.failures){
+      const item=object(value),rawRange=object(item.source)
+      const paragraph=integer(rawRange.paragraph,'失败段落'),start=integer(rawRange.start,'失败起点'),end=integer(rawRange.end,'失败终点')
+      const text=chapter.paragraphs[paragraph],attempts=integer(item.attempts,'尝试次数')
+      if(text===undefined||!paragraphIsText(chapter,paragraph)||start>=end||end>text.length||!safeBoundary(text,start)||!safeBoundary(text,end)||attempts>9999||typeof item.code!=='string'||!Object.hasOwn(failureReasons,item.code)||typeof item.failedAt!=='string'||item.failedAt.length>60||!Number.isFinite(Date.parse(item.failedAt)))throw new Error('失败记录范围或原因无效。')
+      if(segments.some(s=>s.source.paragraph===paragraph&&s.source.start<end&&s.source.end>start)||failures.some(f=>f.source.paragraph===paragraph&&f.source.start<end&&f.source.end>start))throw new Error('失败记录与已有译文或其他失败记录重叠。')
+      if(item.reason!==undefined&&!checkedModelReason(item.reason))throw new Error('失败记录诊断无效。')
+      failures.push({source:{paragraph,start,end},code:item.code,attempts,failedAt:item.failedAt,...(item.reason?{reason:item.reason as string}:{})})
+    }
+  }
   const coverage=translationCoverage(chapter,segments)
   if(input.status==='complete'&&!coverage.complete) throw new Error('译文标注为完整，但仍有未翻译的正文。请补齐或将状态设为 partial。')
-  return {schemaVersion:1,chapterId:chapter.id,chapterIndex:index,chapterTitle:chapter.title,identity:{sourceHash:identity.sourceHash as string,sourceLanguage:'zh',targetLanguage:'en',provider:string(identity.provider,'提供者'),modelVersion:string(identity.modelVersion,'模型版本'),configurationHash:string(identity.configurationHash,'配置版本'),contextHash:string(identity.contextHash,'上下文版本')},status:coverage.complete?'complete':'partial',segments,...(input.glossary===undefined?{}:{glossary:validateGlossary(input.glossary)}),updatedAt:typeof input.updatedAt==='string'&&input.updatedAt.length<60&&Number.isFinite(Date.parse(input.updatedAt))?input.updatedAt:new Date().toISOString()}
+  return {schemaVersion:1,chapterId:chapter.id,chapterIndex:index,chapterTitle:chapter.title,identity:{sourceHash:identity.sourceHash as string,sourceLanguage:'zh',targetLanguage:'en',provider:string(identity.provider,'提供者'),modelVersion:string(identity.modelVersion,'模型版本'),configurationHash:string(identity.configurationHash,'配置版本'),contextHash:string(identity.contextHash,'上下文版本')},status:coverage.complete?'complete':'partial',segments,...(input.glossary===undefined?{}:{glossary:validateGlossary(input.glossary)}),...(failures.length?{failures}:{}),updatedAt:typeof input.updatedAt==='string'&&input.updatedAt.length<60&&Number.isFinite(Date.parse(input.updatedAt))?input.updatedAt:new Date().toISOString()}
 }
 export async function validateTranslationPackage(value:unknown,book:Book):Promise<TranslationPackage> {
   const input=object(value),reference=object(input.book),expected=await bookIdentity(book)

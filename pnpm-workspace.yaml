@@ -2,6 +2,7 @@ allowBuilds:
   core-js: false
   es5-ext: false
   esbuild: true
+  workerd: true
 
 overrides:
   "@xmldom/xmldom": 0.9.12

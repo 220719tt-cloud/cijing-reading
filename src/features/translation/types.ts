@@ -25,6 +25,14 @@ export interface TranslationSegment {
   sourceText: string
   targetText: string
 }
+export interface TranslationFailure {
+  source: SourceRange
+  code: string
+  attempts: number
+  failedAt: string
+  /** Allowlisted diagnostic only; never raw model output or private story text. */
+  reason?: string
+}
 export interface ChapterTranslation {
   schemaVersion: 1
   identity: TranslationIdentity
@@ -36,6 +44,8 @@ export interface ChapterTranslation {
   segments: TranslationSegment[]
   /** Model-discovered proper names; optional for old/manual packages. */
   glossary?: Record<string,string>
+  /** Only fixed error codes and exact original ranges; never raw model output. */
+  failures?: TranslationFailure[]
   updatedAt: string
 }
 export interface TranslationPackage {

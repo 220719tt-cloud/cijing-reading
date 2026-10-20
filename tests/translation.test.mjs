@@ -27,7 +27,7 @@ async function readyPackage(target=book){
 }
 const ready=await readyPackage()
 function model(concentration,translation=ready.chapters[0],hints=false) {
- const baseline=buildDisplayText(chapterText(chapter),rules,{concentration,seed:'test',showChineseHints:hints})
+ const baseline=buildDisplayText(chapterText(chapter),rules,{concentration:concentration===0?0:40,seed:'test',showChineseHints:hints})
  return buildBilingualDisplay(chapter,baseline,translation,concentration,'test')
 }
 test('SHA256原生与无安全上下文回退一致，覆盖中文、代理对和区块边界',async()=>{
@@ -56,7 +56,7 @@ test('句组切分保留引号和标点，不拆开代理对，也不漏中文�
 test('六档使用同一译文缓存，40有句子，60/80英文覆盖递增，100只有真实译文',()=>{
  const before=JSON.stringify(book),states=[0,20,40,60,80,100].map(level=>model(level))
  assert.equal(states[0].model.text,chapterText(chapter))
- assert.ok(states[1].model.replaced>0);assert.equal(states[1].translated,0)
+ assert.ok(states[1].translated>0);assert.ok(Math.abs(states[1].coveredPercent-20)<=1)
  assert.ok(states[2].translated>0);assert.ok(states[2].model.replaced>0)
  const weight=state=>state.model.runs.filter(run=>run.translation).reduce((n,run)=>n+run.sourceEnd-run.sourceStart,0)
  assert.ok(weight(states[3])>weight(states[2]));assert.ok(weight(states[4])>weight(states[3]));assert.ok(weight(states[5])>=weight(states[4]))
@@ -76,7 +76,7 @@ test('缺失或部分译文绝不伪装100%，高档未译范围保持原文且�
  const mixed=model(80,partial);assert.ok(mixed.translated>0);assert.ok(/[\u3400-\u9fff]/u.test(mixed.model.text));assert.match(mixed.badge,/部分译文/)
  const baseline=buildDisplayText(chapterText(chapter),rules,{concentration:40,seed:'test'})
  const low=buildBilingualDisplay(chapter,baseline,undefined,40,'test')
- assert.equal(low.model.text,baseline.text);assert.match(low.message,/暂无句子译文/)
+ assert.ok(low.model.replaced>0);assert.ok(low.coveredPercent<=40.5);assert.match(low.message,/暂无句子译文/)
 })
 test('完整译句的点词／短语使用独立显示位置，原文锚点不混用英文偏移',()=>{
  const full=model(100).model,lookup=withOriginalEnglishLookup(full,['post office'],new Map([['post office','邮局']]))
@@ -178,7 +178,7 @@ test('存储不可用、配额不足和空缓存导出明确失败，不伪称�
  } finally{globalThis.indexedDB=original}
 })
 test('译文内容始终是惰性文本，不作为HTML模板；不接受以大量中文冒充英文',async()=>{
- const value=clone(ready);value.chapters[0].segments[0].targetText='The page reads <script>doNotRun()</script> in plain text.'
+ const value=clone(ready);value.chapters[0].segments[1].targetText='The page reads <script>doNotRun()</script> in plain text.'
  const checked=await validateTranslationPackage(value,book)
  const display=model(100,checked.chapters[0]);assert.ok(display.model.text.includes('<script>'))
  assert.equal(globalThis.doNotRun,undefined)
@@ -255,7 +255,8 @@ test('真实TXT与EPUB夹具可以导入完整译文，实际EPUB图片和全部
   assert.equal(translations.chapters.length,2)
   for(const [i,ch] of epub.chapters.entries()){
    const result=buildBilingualDisplay(ch,buildDisplayText(chapterText(ch),rules,{concentration:100,seed:'epub'}),translations.chapters[i],100,'epub')
-   assert.equal(result.complete,true);assert.ok(!/[\u3400-\u9fff]/u.test(result.model.text))
+   assert.equal(result.complete,true);assert.equal(result.coveredPercent,100)
+   for(const [index,block] of ch.blocks.entries())if(['heading','pre'].includes(block.kind))assert.ok(result.model.text.includes(ch.paragraphs[index]))
    let offset=0;const pieces=[]
    for(const [index,block] of ch.blocks.entries()){if(index)pieces.push('\n\n');pieces.push(fragmentsForBlock(result.model,offset,offset+block.text.length,block.marks).map(fragment=>fragment.text).join(''));offset+=block.text.length+2}
    assert.equal(pieces.join(''),result.model.text)
