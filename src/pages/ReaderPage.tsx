@@ -286,7 +286,7 @@ export function ReaderPage({ book, theme }: { book: Book; theme: 'light' | 'dark
         <p className="english-notice" role="status">{translationMessage}</p>
         <p className="muted">所有非零档位均可复用真实译文。允许后自动翻译当前章；切换档位不重复翻译。按英文对应的原文正文范围计数，词组、短句和完整句子共同计入；标点、数字、图片和 EPUB 标题不计入分母。完整句组不拆散，短章可能有比例偏差。</p>
         {preferences.english>0&&<AutoTranslationControls auto={auto}/>}
-        {preferences.english>0 && !translationLoading && <p className="english-notice">本章已缓存译文 {bilingual.availablePercent}%；当前显示 {bilingual.translated} 个译文句组、{bilingual.localCount} 处本地表达。翻译进度与当前英文比例分别计算，未完成或失败时请查看上方实际覆盖率；100% 须整章完整后切换。</p>}
+        {preferences.english>0 && !translationLoading && <p className="english-notice">本章已缓存译文 {bilingual.availablePercent}%；当前显示 {bilingual.translated} 个译文句组、{bilingual.localCount} 处本地表达。翻译进度与当前英文比例分别计算，未完成或失败时请查看上方实际覆盖率；100% 显示全部已缓存英文，未翻译或已跳过的部分继续保留中文。</p>}
         <button className="primary-button" onClick={() => { setPanel(null); setTranslationOpen(true) }}>译文管理 · 导入 / 导出</button>
       </>}
 

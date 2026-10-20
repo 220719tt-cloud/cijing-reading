@@ -38,7 +38,6 @@ export function buildBilingualDisplay(chapter:Chapter,baseline:DisplayText,trans
   const empty:BilingualDisplay={model:original,translated:0,available:0,complete:cache.complete,message:'当前显示完整原文。',badge:'',coveredPercent:0,availablePercent:cache.percent,covered:0,total:source.total,localCount:0}
   if(concentration===0)return empty
   if(!source.total)return {...empty,message:'本章没有需要切换语言的正文，标题、数字和图片按原样显示。'}
-  if(concentration===100&&!cache.complete)return {...empty,message:`本章译文尚未完整（已缓存 ${cache.percent}%）。100% 需要补齐正文，当前显示原文；请查看翻译进度、继续或重试。`,badge:'译文未完整 · 实际 0%（原文）'}
   let offset=0
   const starts=chapter.paragraphs.map(text=>{const start=offset;offset+=text.length+2;return start})
   const markers:Edit[]=[]
@@ -61,7 +60,8 @@ export function buildBilingualDisplay(chapter:Chapter,baseline:DisplayText,trans
   // Vetted words/phrases supply a small part; actual whole sentences supply the rest.
   if(concentration<100)for(const item of choose(local,source.total*(groups.length ? .04 : .2)))selected.add(item)
   let covered=[...selected].reduce((sum,item)=>sum+item.weight,0),adjustedForTarget=false
-  for(const level of [20,40,60,80,100]) {
+  // 100% uses every cached whole group, with no local replacements in uncached gaps.
+  for(const level of (concentration===100?[100]:[20,40,60,80,100])) {
     const previous=[...selected],previousCoverage=covered,target=source.total*level/100
     const remaining=groups.filter(item=>!selected.has(item))
     const localSelected=[...selected].filter(item=>item.run)
@@ -119,6 +119,7 @@ export function buildBilingualDisplay(chapter:Chapter,baseline:DisplayText,trans
   const coarse=Math.abs(actual.percent-concentration)>2&&cache.complete?'完整句组不可拆分，当前为保留完整语义且逐档递增的可用比例。':''
   const adjustment=adjustedForTarget&&concentration<100?'少数长句组无法同时满足目标比例与逐档包含，已优先接近目标，个别句组会调整。':''
   const fallback=!groups.length?'本章暂无句子译文，当前仅使用经过筛选的本地表达；允许自动翻译可覆盖更多语境。':''
-  const message=`目标 ${concentration}% · 实际英文覆盖 ${actual.percent}%。按转为英文的原文正文范围计算，词组和整句一并计入。${!cache.complete?`译文已缓存 ${cache.percent}%，未有可靠英文的范围保留中文。`:''}${fallback}${coarse}${adjustment}`
+  const maximum=concentration===100?'已显示全部可用的缓存英文译文，尚未翻译或已跳过的句组保留中文。':''
+  const message=`目标 ${concentration}% · 实际英文覆盖 ${actual.percent}%。按转为英文的原文正文范围计算，词组和整句一并计入。${!cache.complete?`译文已缓存 ${cache.percent}%，未有可靠英文的范围保留中文。`:''}${maximum}${fallback}${coarse}${adjustment}`
   return {model,translated,localCount,available:groups.length,complete:cache.complete,message,badge:`目标 ${concentration}% · 实际 ${actual.percent}%${!cache.complete?' · 部分译文':''}`,coveredPercent:actual.percent,availablePercent:cache.percent,covered:actual.covered,total:actual.total}
 }

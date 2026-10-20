@@ -72,7 +72,8 @@ test('缺失或部分译文绝不伪装100%，高档未译范围保持原文且�
   assert.equal(missing.model.text,chapterText(chapter));assert.ok(missing.badge.includes('原文'))
  }
  const partial={...ready.chapters[0],status:'partial',segments:ready.chapters[0].segments.slice(0,2)}
- assert.equal(model(100,partial).model.text,chapterText(chapter));assert.match(model(100,partial).message,/尚未完整/)
+ assert.equal(model(100,partial).translated,1); // The other cached group is a numeric marker, not English coverage.
+ assert.ok(model(100,partial).coveredPercent>0);assert.match(model(100,partial).message,/全部可用的缓存英文译文/)
  const mixed=model(80,partial);assert.ok(mixed.translated>0);assert.ok(/[\u3400-\u9fff]/u.test(mixed.model.text));assert.match(mixed.badge,/部分译文/)
  const baseline=buildDisplayText(chapterText(chapter),rules,{concentration:40,seed:'test'})
  const low=buildBilingualDisplay(chapter,baseline,undefined,40,'test')

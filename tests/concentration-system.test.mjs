@@ -48,7 +48,7 @@ test('实际覆盖不受英文长度、中文括注、掌握/查词拆词影响�
  const lookup=withOriginalEnglishLookup(a.model,['English protocol'])
  assert.deepEqual(displayCoverage(ch,lookup),{covered:a.covered,total:a.total,percent:a.coveredPercent})
 })
-test('无缓存不伪装达标，部分译文只用已完成内容；100%未完整回原文',()=>{
+test('无缓存不伪装达标，部分译文只用已完成内容；100%显示全部已有译文',()=>{
  const partial={segments:ready.segments.slice(0,3)}
  for(const level of [20,40,60,80]){
   const result=render(level,partial)
@@ -56,7 +56,7 @@ test('无缓存不伪装达标，部分译文只用已完成内容；100%未完�
   assert.equal(result.covered,selected(result.model).size);assert.ok(result.coveredPercent<=level+1);unchangedRanges(result)
  }
  for(const level of [20,40]){const result=render(level,null);assert.match(result.message,/暂无句子译文/);assert.equal(result.translated,0);assert.equal(result.covered,selected(result.model).size)}
- const all=render(100,partial);assert.equal(all.coveredPercent,0);assert.equal(all.model.text,all.model.original);assert.match(all.badge,/原文/)
+ const all=render(100,partial);assert.ok(all.coveredPercent>0);assert.equal(all.translated,partial.segments.length);assert.match(all.badge,/部分译文/);unchangedRanges(all)
 })
 test('EPUB标题/pre/图片/标点/数字不虚增英文覆盖，不改变原始块或文字',()=>{
  const c={id:'protected',title:'正文',order:0,paragraphs:['章标题','代码','\uFFFC','2026？！','𠮷村推开窗。她笑了。'],blocks:[{kind:'heading'},{kind:'pre'},{kind:'image'},{kind:'paragraph'},{kind:'paragraph'}]}

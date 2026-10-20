@@ -30,7 +30,7 @@ test('部分译文不冒充目标比例，大句组无法接近时明确解释�
  const missing=buildBilingualDisplay(ch,baseline,undefined,80,'coarse')
  assert.equal(missing.coveredPercent,0);assert.match(missing.message,/自动翻译/);assert.equal(missing.model.text,original)
 })
-test('真实显示模型中60/80选完整对应句组，原文位置连续且100仍须完整',()=>{
+test('真实显示模型中60/80选完整对应句组，原文位置连续且100使用所有可用译文',()=>{
  const ch={id:'weighted',title:'算法测试',order:0,paragraphs:weights.map(size=>'文'.repeat(size))}
  const translation={segments:ch.paragraphs.map((sourceText,paragraph)=>({id:`p${paragraph}`,chapterId:ch.id,source:{paragraph,start:0,end:sourceText.length},sourceText,targetText:`English test group ${paragraph}.`}))}
  const original=chapterText(ch),before=JSON.stringify(ch)
@@ -43,7 +43,7 @@ test('真实显示模型中60/80选完整对应句组，原文位置连续且100
  }
  const partial={segments:translation.segments.slice(0,2)}
  const result=buildBilingualDisplay(ch,buildDisplayText(original,[],{concentration:100,seed:'weighted'}),partial,100,'weighted')
- assert.equal(result.model.text,original);assert.equal(result.availablePercent,70);assert.equal(result.coveredPercent,0)
+ assert.equal(result.translated,2);assert.equal(result.availablePercent,70);assert.equal(result.coveredPercent,70);assert.ok(result.model.text.includes(ch.paragraphs[2]))
  assert.equal(JSON.stringify(ch),before)
 })
 
